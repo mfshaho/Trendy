@@ -9,6 +9,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.blackfea {
+  fill: #000;
+}
+
+.fea{
+  height: 35px;
+  width: 35px;
+}
+
 .cards-shelf-header {
     padding-bottom: 14px;
 }
@@ -31,6 +40,159 @@ h1, h2, h3, h4, h5, h6 {
 .cards-shelf-secondaryheader {
     color: #6e6e73;
 }
+
+.cards-header {
+    padding-bottom: 14px;
+  }
+
+.cards-mainheader, .cards-secondaryheader {
+    font-size: 43px;
+    width: 60rem;
+    line-height: 1.14286;
+    font-weight: 700;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline;
+    text-align: left;
+}
+
+.cards-secondaryheader {
+    color: #6e6e73;
+}
+
+.shop-chat-section {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    -webkit-text-size-adjust: none;
+  }
+
+.shop-chat-section .shop-chaticon-container {
+    width: 36px;
+    height: 36px;
+    padding-right: 8px;
+}
+
+.shop-chat-section {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    -webkit-text-size-adjust: none;
+}
+
+.shop-chat-title {
+    font-weight: 600;
+    padding-top: 0;
+}
+
+.shop-chat-content {
+    display: block;
+}
+
+.shop-container .shop-chatstore-section {
+    position: absolute;
+    right: 0;
+}
+.shop-chatstore-section {
+    padding-bottom: 54px;
+}
+.shop-chatstore-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    padding: 90px 0 74px;
+}
+.large-4 {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+.column {
+    width: 70rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.large-4 {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+.column {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.storehome .shop-container.shop-container-withchatandstore {
+    min-height: 248px;
+}
+.shop-container.shop-container-withchatandstore {
+    min-height: 228px;
+}
+.shop-container {
+
+    position: relative;
+    min-height: 196px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.shop-header, .shop-subheader {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 500;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline;
+}
+
+.shop-header-section .shop-subheader {
+    color: #6e6e73;
+}
+
+.shop-neareststore {
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    -webkit-text-size-adjust: none;
+}
+
+.shop-neareststore .as-svgicon-container {
+    width: 36px;
+    height: 36px;
+    padding-right: 8px;
+}
+
+.shop-neareststore .as-svgicon-container .as-svgicon {
+    margin-top: 0;
+    margin-left: 0;
+}
+
 
 .cards-scroller {
     position: relative;
@@ -402,6 +564,24 @@ text-align: left;
 }
 
 @media screen and (max-width: 662px){
+
+  .fea{
+    height: 25px;
+    width: 25px;
+  }
+
+  .shop-header, .shop-subheader {
+      font-size: 28px;
+  }
+
+  .column {
+      width: 40rem;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 35px;
+      min-width: 0;
+  }
+
   .cards-shelf-mainheader, .cards-shelf-secondaryheader {
       font-size: 13px;
   }
