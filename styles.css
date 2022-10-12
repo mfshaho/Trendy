@@ -269,7 +269,7 @@ footer{
     height: 1px;
     background-color: #fff;
     transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
-    margin-left: 2rem;
+
   }
 
   .line-top{
@@ -277,7 +277,7 @@ footer{
   }
 
   .line-bottom{
-    margin-top: -.8rem;
+    margin-top: -.4rem;
   }
 
   .active .line-top{
