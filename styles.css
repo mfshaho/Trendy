@@ -31,7 +31,7 @@ header{
   width: 100%;
   height: 4.4rem;
   background-color: rgba(50, 50, 51, 1);
-  backdrop-filter: blur(.4rem);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .nav-list{
@@ -221,6 +221,7 @@ footer{
     height: 4.8rem;
     transition: background-color .36s cubic-bezier(0.32, 0.08, 0.24, 1),
                 height .56s cubic-bezier(0.32, 0.08, 0.24, 1);
+
   }
 
   header .container{
@@ -269,6 +270,7 @@ footer{
     height: 1px;
     background-color: #fff;
     transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    margin-left: 2rem;;
 
   }
 
@@ -318,6 +320,7 @@ footer{
     font-size: 1.7rem;
     padding: 0;
     margin: auto 0;
+    margin-right: 2rem;
   }
 
   .nav-list-larger{
@@ -345,6 +348,7 @@ footer{
   .active .nav-link-bag{
     opacity: 0;
     transition: opacity .3s;
+    margin: 2rem;
   }
 
   .nav-list-larger .nav-item{
