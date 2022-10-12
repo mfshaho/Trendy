@@ -1,0 +1,504 @@
+html{
+  margin-top: 13rem;
+  margin-left: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+
+.cards-shelf-header {
+    padding-bottom: 14px;
+}
+.text-container {
+    padding-left: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-shelf-mainheader, .cards-shelf-secondaryheader {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: inline;
+    text-align: left;
+}
+
+.cards-shelf-secondaryheader {
+    color: #6e6e73;
+}
+
+.cards-scroller {
+    position: relative;
+}
+
+.cards-scroller-crop {
+    overflow: hidden;
+}
+
+.cards-scroller-overflow {
+    flex-wrap: nowrap;
+    display: flex;
+    overflow-x: auto;
+}
+
+.cards-scroller-platter {
+    vertical-align: top;
+    display: inline-flex;
+
+}
+
+.cards-scroller-item {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.cards-scroller-item:first-child {
+    margin-left: 0;
+    padding-left: calc(max(22px, env(safe-area-inset-left)));
+}
+
+
+.card-img-full {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content.card-content-withfullimg {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.recommcard-content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 18px;
+    height: 100%;
+    width: 30rem;;
+    padding: 30px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.recommcard-content-darker {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 18px;
+    height: 100%;
+    width: 30rem;;
+    padding: 30px;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.recommcard-content-img {
+    width: 100%;
+    min-height: 200px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.recommcard-content-img img {
+    display: block;
+    width: auto;
+    height: 230px;
+    margin: 0 auto;
+}
+
+.recommcard-content-info {
+    display: flex;
+    flex-direction: column;
+    height: 8.76471rem;
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 79px;
+}
+
+.recommcard-content-violator {
+    position: absolute;
+    width: 100%;
+}
+
+.recommcard-content-violatortext {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #bf4800;
+    display: block;
+}
+
+.recommcard-content-title {
+    margin-top: 0;
+    padding-top: 1.84706rem;
+  }
+
+  .recommcard-content-title-darker {
+      margin-top: 0;
+      padding-top: 1.84706rem;
+    }
+
+
+.recommcard-content-title a {
+      font-size: 17px;
+      line-height: 1.23536;
+      font-weight: 400;
+      letter-spacing: -.022em;
+      font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-weight: 600;
+      color: #1d1d1f;
+      display: block;
+  }
+
+  .recommcard-content-title-darker a {
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        color: #e7e7e7;
+        display: block;
+    }
+  .recommcard-content-price {
+      font-size: 14px;
+      line-height: 1.28577;
+      font-weight: 400;
+      letter-spacing: -.016em;
+      font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+      padding-top: 33px;
+      margin-top: auto;
+      white-space: normal;
+  }
+
+  .recommcard-content-price-darker {
+      font-size: 14px;
+      line-height: 1.28577;
+      font-weight: 400;
+      letter-spacing: -.016em;
+      font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+      padding-top: 33px;
+      color: #e7e7e7;
+      margin-top: auto;
+      white-space: normal;
+  }
+
+.store {
+  border-top: none;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #1d1d1f;
+  font-style: normal;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  text-align: left;
+  padding-bottom: 54px;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 18px;
+  width: 40rem;
+  height: 50rem;
+  white-space: normal;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.card-content-darker{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  border-radius: 18px;
+  width: 40rem;
+  height: 50rem;
+  white-space: normal;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+  transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.cards-scroller-itemview {
+    display: flex;
+    margin-right: 20px;
+    transform: translateX(calc(max(1024px, 100vw)/2 - 490px));
+}
+
+.card-img-full-wrapper {
+    width: 100%;
+}
+
+.card-img-full {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content-info {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    font-style: normal;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    text-align: left;
+    cursor: default;
+    white-space: normal;
+    padding: 30px;
+    width: 35rem;
+    position: absolute;
+    left: 0;
+}
+
+.card-content-eyebrow {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    color: #e7e7e7;
+    width: 204px;
+    padding-bottom: 8px;
+}
+
+.card-content-header {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.card-content-desc {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #1d1d1f;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.card-content-info-darker {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #e7e7e7;
+    font-style: normal;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    text-align: left;
+    cursor: default;
+    white-space: normal;
+    padding: 30px;
+    width: 35rem;
+    position: absolute;
+    left: 0;
+}
+
+.card-content-header-darker {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #e7e7e7;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.card-content-desc-darker {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #e7e7e7;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.item{
+font-size: 17px;
+line-height: 1.47059;
+font-weight: 400;
+letter-spacing: -.022em;
+font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+color: #1d1d1f;
+font-style: normal;
+font-synthesis: none;
+-webkit-font-smoothing: antialiased;
+direction: ltr;
+text-align: left;
+}
+
+.buy-button{
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-end;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background-color: rgba(50, 50, 51, 1);
+    backdrop-filter: blur(2rem);
+    color: #fff;
+}
+
+.buy-button:hover{
+  opacity: 90%;
+}
+
+@media screen and (max-width: 662px){
+  .cards-shelf-mainheader, .cards-shelf-secondaryheader {
+      font-size: 16px;
+  }
+
+  .card-content{
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .card-content-darker{
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .card-content-info {
+      font-size: 17px;
+      padding: 30px;
+      width: 15rem;
+  }
+
+  .card-content-info-darker {
+      font-size: 17px;
+      padding: 30px;
+      width: 15rem;
+  }
+
+  .card-content-header {
+      font-size: 20px;
+      padding-top: 1px
+  }
+
+  .card-content-desc {
+      font-size: 10px;
+      letter-spacing: -.022em;
+      padding-top: 1px;
+  }
+
+  .card-content-header-darker {
+      font-size: 20px;
+      padding-top: 1px
+  }
+
+  .card-content-desc-darker {
+      font-size: 10px;
+      letter-spacing: -.022em;
+      padding-top: 1px;
+  }
+
+
+  .recommcard-content {
+      height: 100%;
+      width: 20rem;;
+      height: 25rem;
+      padding: 1px;
+  }
+
+  .recommcard-content-darker {
+      height: 100%;
+      width: 20rem;
+      height: 25rem;
+      padding: 1px;
+  }
+
+  .recommcard-content-img {
+      width: 15rem;
+      height: 15rem;
+      min-height: 1px;
+      padding-top: 5.5px;
+      padding-bottom: 0;
+      margin: 0 auto;
+  }
+
+
+  .recommcard-content-img img {
+    display: block;
+    width: auto;
+    height: 1px;
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .recommcard-content-info {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding: 20px;
+  }
+
+  .buy-button{
+      right: 11px;
+      font-size: 10px;
+      min-width: 28px;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+  }
+
+}
