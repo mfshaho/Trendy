@@ -1,16 +1,11 @@
 html{
-  margin-top: 13rem;
+  margin-top: 8rem;
   margin-left: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     color: #1d1d1f;
-}
-
-
-.blackfea {
-  fill: #000;
 }
 
 .fea{
@@ -290,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 8.76471rem;
     position: relative;
     padding: 20px 0 0;
-    margin-top: 79px;
+    margin-top: 39px;
 }
 
 .recommcard-content-violator {
@@ -537,6 +532,7 @@ text-align: left;
 
 .buy-button{
     position: absolute;
+    top: 90px;
     right: 5px;
     cursor: pointer;
     display: inline-block;
@@ -563,7 +559,47 @@ text-align: left;
   opacity: 90%;
 }
 
-@media screen and (max-width: 662px){
+@media screen and (max-width: 890px){
+
+  .shop-container {
+
+      position: relative;
+      min-height: 196px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+  }
+
+
+  .fea{
+    height: 25px;
+    width: 25px;
+  }
+
+  .shop-header, .shop-subheader {
+      font-size: 28px;
+  }
+
+  .column {
+      width: 40rem;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 35px;
+      min-width: 0;
+  }
+}
+
+@media screen and (max-width: 720px){
+
+  .shop-container {
+
+      position: relative;
+      min-height: 196px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 720px;
+  }
+
 
   .fea{
     height: 25px;
@@ -583,7 +619,7 @@ text-align: left;
   }
 
   .cards-shelf-mainheader, .cards-shelf-secondaryheader {
-      font-size: 13px;
+      font-size: 19px;
   }
 
   .card-content{
@@ -671,14 +707,99 @@ text-align: left;
       padding: 20px;
   }
 
+  .recommcard-content-title a {
+        font-size: 14px;
+        line-height: 1.23536;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        color: #1d1d1f;
+        display: block;
+    }
+
+    .recommcard-content-title-darker a {
+          font-size: 14px;
+          line-height: 1.23536;
+          font-weight: 400;
+          letter-spacing: -.022em;
+          font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+          font-weight: 600;
+          color: #e7e7e7;
+          display: block;
+      }
+
+      .recommcard-content-price {
+          font-size: 14px;
+          line-height: 1.28577;
+          font-weight: 400;
+          letter-spacing: -.016em;
+          font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+          padding-top: 23px;
+          margin-top: auto;
+          white-space: normal;
+      }
+
+      .recommcard-content-price-darker {
+          font-size: 14px;
+          line-height: 1.28577;
+          font-weight: 400;
+          letter-spacing: -.016em;
+          font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+          padding-top: 23px;
+          color: #e7e7e7;
+          margin-top: auto;
+          white-space: normal;
+      }
+
   .buy-button{
-      right: 11px;
+      right: 17px;
+      top: 77px;
       font-size: 10px;
       min-width: 28px;
       padding-left: 4px;
       padding-right: 4px;
       padding-top: 4px;
       padding-bottom: 4px;
+  }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+  .fea{
+    height: 15px;
+    width: 15px;
+  }
+
+  .shop-header{
+    font-weight: 700;
+  }
+
+  .shop-header, .shop-subheader {
+      font-size: 21px;
+  }
+
+.shop-chatstore-section{
+  visibility: collapse;
+}
+
+  .shop-neareststore {
+      font-size: 10px;
+  }
+
+    .shop-container {
+
+      position: relative;
+      min-height: 196px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 680px;
+  }
+
+  .cards-shelf-mainheader, .cards-shelf-secondaryheader {
+      font-size: 13px;
   }
 
 }

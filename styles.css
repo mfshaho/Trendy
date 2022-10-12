@@ -391,7 +391,6 @@ footer{
   border-top: none;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .unit-image-iphone-14{
     height: 59.2rem;
@@ -401,7 +400,6 @@ footer{
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
   .unit-image-iphone-14{
     height: 54rem;
@@ -417,7 +415,6 @@ footer{
   border-top: none;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .unit-image-iphone-14-pro{
     height: 59.2rem;
@@ -426,7 +423,6 @@ footer{
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
   .unit-image-iphone-14-pro{
     height: 49.2rem;
@@ -441,7 +437,6 @@ footer{
   border-top: none;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .unit-image-macbook-pro-13{
     height: 69.2rem;
@@ -450,7 +445,6 @@ footer{
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
   .unit-image-macbook-pro-13{
     height: 69.2rem;
@@ -465,7 +459,6 @@ footer{
   border-top: none;
 }
 
-/* On screens that are 992px wide or less, the background color is blue */
 @media screen and (max-width: 992px) {
   .unit-image-logitech-folio{
     height: 59.2rem;
@@ -474,7 +467,6 @@ footer{
   }
 }
 
-/* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
   .unit-image-logitech-folio{
     height: 59.2rem;
