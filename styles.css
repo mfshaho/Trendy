@@ -1,5 +1,4 @@
 /*CSS*/
-
 *,
 *::before,
 *::after{
@@ -48,34 +47,64 @@ header{
 }
 
 .nav-link{
-  font-size: 1.4rem;
-  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-weight: 100;
-  color: #fff;
-  padding: 0 1rem;
-  transition: opacity .5s;
+  font-size: 12px;
+  line-height: 3.66667;
+  letter-spacing: .08rem;
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  text-decoration: none;
+  color: rgba(214, 214, 214, 1);
+  transition: all 0.2s ease-in-out;
 }
 
-.nav-link:hover{
-  opacity: .7;
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1);
 }
+
 
 .nav-link-logo{
   width: 1.6rem;
   height: 2.4rem;
-  background: url("images/icons/fea.svg") center no-repeat;
+}
+
+.logo {
+  width: 2rem;
+  margin-bottom: .4rem;
+  fill: rgba(214, 214, 214, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover path {
+  fill: rgba(255, 255, 255, 1);
 }
 
 .nav-link-search{
   width: 1.6rem;
   height: 4.4rem;
-  background: url("images/icons/search.svg") center no-repeat;
+}
+
+.search {
+  fill: rgba(214, 214, 214, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.search:hover path {
+  fill: rgba(255, 255, 255, 1);
 }
 
 .nav-link-bag{
   width: 1.4rem;
   height: 4.4rem;
-  background: url("images/icons/bag.svg") center no-repeat;
+}
+
+.bag {
+  fill: rgba(214, 214, 214, 1);
+  transition: all 0.2s ease-in-out;
+}
+
+.bag:hover path {
+  fill: rgba(255, 255, 255, 1);
 }
 
 .hero{
@@ -104,21 +133,28 @@ header{
 }
 
 .title-dark{
-  color: #333;
+  color: #000;
 }
 
 .title-light{
-  color: #fff;
+  color: #F5F5F7;
 }
 .title-heading{
   font-size: 5.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.07143;
   letter-spacing: -.005rem;
 }
 
 .title-sub-heading{
-  font-size: 2.65rem;
+  font-size: 2.85rem;
+  margin-top: .6rem;
+  letter-spacing: .008rem;
+  font-weight: 400;
+}
+
+.title-sub-heading-smaller{
+  font-size: 1.85rem;
   margin-top: .6rem;
   letter-spacing: .008rem;
   font-weight: 400;
@@ -205,7 +241,7 @@ footer{
   }
 
   .title-sub-heading{
-    font-size: 1.65rem;
+    font-size: 28px;
     margin-top: .6rem;
     letter-spacing: .008rem;
     font-weight: 400;
@@ -268,10 +304,14 @@ footer{
     position: absolute;
     width: 1.7rem;
     height: 1px;
-    background-color: #fff;
+    background-color: rgba(214, 214, 214, 1);
     transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
-    margin-left: 2rem;;
+    margin-left: 2rem;
 
+  }
+
+  .line:hover {
+    background-color: rgba(255, 255, 255, 1);
   }
 
   .line-top{
@@ -300,15 +340,15 @@ footer{
   }
 
   .nav-link-logo{
-    width: 1.8rem;
-    height: 4.8rem;
-    position: relative;
-    z-index: 1500;
+    width: 2.2rem;
+    height: 2.2rem;
+    background: url("images/icons/fea.svg");
   }
+
 
   .nav-link-bag{
     width: 1.6rem;
-    height: 4.8rem;
+    height: 4rem;
     transition: opacity 3s;
   }
 
@@ -317,7 +357,7 @@ footer{
   }
 
   .nav-link{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     padding: 0;
     margin: auto 0;
     margin-right: 2rem;
@@ -388,9 +428,10 @@ footer{
 }
 
 
+
 .unit-image-iphone-14{
-  height: 59.2rem;
-  background: url("images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_large.jpg") center;
+  height: 69.2rem;
+  background: url("images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall.jpg") center;
   margin-top: 4.4rem;
   border-top: none;
 }
@@ -406,9 +447,9 @@ footer{
 
 @media screen and (max-width: 600px) {
   .unit-image-iphone-14{
-    height: 54rem;
+    height: 54.7rem;
     background: url("images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_small.jpg") center;
-    margin-top: 2rem;
+    margin-top: 4.4rem;
     border-top: none;
   }
 }
@@ -429,7 +470,7 @@ footer{
 
 @media screen and (max-width: 600px) {
   .unit-image-iphone-14-pro{
-    height: 49.2rem;
+    height: 52.2rem;
     background: url("images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_small.jpg") center;
     border-top: none;
   }
@@ -458,14 +499,14 @@ footer{
 }
 
 .unit-image-logitech-folio{
-  height: 59.2rem;
+  height: 69.2rem;
   background: url("images/hero/logitech-universal-folio/hero_logitech_universal_folio_large.jpg") center;
   border-top: none;
 }
 
 @media screen and (max-width: 992px) {
   .unit-image-logitech-folio{
-    height: 59.2rem;
+    height: 69.2rem;
     background: url("images/hero/logitech-universal-folio/hero_logitech_universal_folio_medium.jpg") center;
     border-top: none;
   }
