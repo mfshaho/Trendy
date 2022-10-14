@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <workItem from="1665754415140" duration="15913000" />
       <workItem from="1665774283254" duration="4384000" />
       <workItem from="1665779209075" duration="567000" />
-      <workItem from="1665780228282" duration="310000" />
+      <workItem from="1665780228282" duration="630000" />
     </task>
     <servers />
   </component>
