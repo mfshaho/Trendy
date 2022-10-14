@@ -316,11 +316,11 @@ footer{
   }
 
   .line-top{
-    margin-top: 6px;
+    margin-top: 3px;
   }
 
   .line-bottom{
-    margin-top: -6px;
+    margin-top: -3px;
   }
 
   .active .line-top{
