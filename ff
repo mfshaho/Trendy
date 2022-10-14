@@ -1,0 +1,85 @@
+<!-- ITEM ! -->
+            <div class="cards-scroller-item hvr-grow">
+              <div class="card-content-darker card-content-withfullimg">
+                <div class="card-img-full-wrapper">
+                  <img width="309" height="450" alt="" src="images/store/store-card-40-iphone-14-pro-202209.jpg"
+                                                       srcset="images/store/store-card-40-iphone-14-pro-202209.jpg 2x" class="card-img-full">
+                </div>
+                <div class="card-content-info-darker">
+                  <h3 class="card-content-eyebrow">iPhone 14 Pro</h3>
+                  <div class="card-content-header-darker"><span>Pro. Beyond.</span></div>
+                  <div class="card-content-desc-darker">Discover fresh new colors for your favorite accessories.</div>
+                </div>
+              </div>
+            </div>
+
+           <!-- ITEM ! -->
+            <div class="cards-scroller-item hvr-grow">
+              <div class="recommcard">
+                <div class="recommcard-content-darker">
+                  <div class="recommcard-content-img">
+                    <img width="200" height="200" alt="" src="images/items/airpods-max.jpg" srcset="images/items/airpods-max.jpg, images/items/airpods-max.jpg 2x">
+                  </div>
+                  <div class="recommcard-content-info">
+                    <div class="recommcard-content-violator">
+                      <span class="recommcard-content-violatortext">New</span>
+                    </div>
+                    <h3 class="recommcard-content-title-darker">
+                      <a href="#">
+                        <span data-index="2">Airpods Max</span>
+                      </a>
+                    </h3>
+                    <div class="recommcard-content-price-darker"><span>$549</span>
+                    <a href="#" class="buy-button">Buy</a>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            </div>
+
+
+            <!-- ITEM ! -->
+             <div class="cards-scroller-item hvr-grow">
+               <div class="card-content-darker card-content-withfullimg">
+                 <div class="card-img-full-wrapper">
+                   <img width="309" height="450" alt="" src="images/store/store-card-40-macbook-pro-202206.jpg"
+                                                        srcset="images/store/store-card-40-macbook-pro-202206.jpg 2x" class="card-img-full">
+                 </div>
+
+                 <div class="card-content-info-darker">
+
+                   <h3 class="card-content-eyebrow">MACBOOK PRO 13” </h3>
+                   <div class="card-content-header-darker"><span>Pro anywhere.</span></div>
+                   <div class="card-content-desc-darker">From $1299</div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ITEM ! -->
+       <div class="cards-scroller-item hvr-grow">
+         <div class="recommcard">
+           <div class="recommcard-content-darker">
+             <div class="recommcard-content-img">
+               <img width="200" height="200" alt="" src="images/items/iphone-14-pro.jpg" srcset="images/items/iphone-14-pro.jpg, images/items/iphone-14-pro.jpg 2x">
+             </div>
+             <div class="recommcard-content-info">
+               <div class="recommcard-content-violator">
+                 <span class="recommcard-content-violatortext">New</span>
+               </div>
+               <h3 class="recommcard-content-title-darker">
+                 <a href="#">
+                   <span data-index="2">iPhone 14 Pro Max</span>
+                 </a>
+               </h3>
+               <div class="recommcard-content-price-darker"><span>Starting $1399</span>
+               <a href="#" class="buy-button">Buy</a>
+             </div>
+             </div>
+         </div>
+       </div>
+       </div>
+
+
+       <h2 class="cards-shelf-mainheader">Accessories.</h2>
+             <span class="cards-shelf-secondaryheader">Essentials that pair perfectly with your favorite devices.</span>

@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chevron.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store.css" beforeDir="false" afterPath="$PROJECT_DIR$/store.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/store.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,9 @@
   }
 }</component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="contact.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FEA/contact.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FEA/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -42,6 +48,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.contact.html" />
         <item itemvalue="JavaScript Debug.store.html" />
       </list>
     </recent_temporary>
@@ -55,7 +62,9 @@
       <option name="presentableId" value="Default" />
       <updated>1665665466999</updated>
       <workItem from="1665665468567" duration="6197000" />
-      <workItem from="1665754415140" duration="2026000" />
+      <workItem from="1665754415140" duration="15913000" />
+      <workItem from="1665774283254" duration="4384000" />
+      <workItem from="1665779209075" duration="567000" />
     </task>
     <servers />
   </component>

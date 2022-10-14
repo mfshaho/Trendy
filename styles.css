@@ -303,11 +303,11 @@ footer{
 
   .line{
     position: absolute;
-    width: 1.7rem;
+    width: 1.4rem;
     height: 1px;
     background-color: rgba(214, 214, 214, 1);
     transition: margin-top .3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
-    margin-left: 2rem;
+    margin-left: 1.3rem;
 
   }
 
@@ -316,11 +316,11 @@ footer{
   }
 
   .line-top{
-    margin-top: 3px;
+    margin-top: 6px;
   }
 
   .line-bottom{
-    margin-top: -.4rem;
+    margin-top: -6px;
   }
 
   .active .line-top{
