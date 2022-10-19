@@ -1,0 +1,82 @@
+.login-section {
+    height: ;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], select {
+    height: 50px;
+    width: 380px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    height: 50px;
+    width: 380px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    height: 50px;
+    width: 380px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    height: 50px;
+    width: 380px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90px;
+    background-color: #0071e3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 980px;
+    cursor: pointer;
+    min-width: 28px;
+    margin-left:41%;
+}
+
+input[type=submit]:hover {
+    opacity: 90%;
+}
+
+.submit {
+    width: 90px;
+    background-color: #0071e3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 980px;
+    cursor: pointer;
+    min-width: 28px;
+    margin-left:41%;
+}
+.submit:hover {
+    opacity: 90%;
+}
