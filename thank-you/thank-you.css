@@ -4,13 +4,29 @@ html {
     font-family: 'Outfit', sans-serif;
 }
 
-body {
+body{
     margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.trendy-logo {
+    width: 300px;
+    margin-bottom: 5rem;
 }
 
 .icon {
     position: fixed;
     margin: 1rem auto;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .gg-link {
