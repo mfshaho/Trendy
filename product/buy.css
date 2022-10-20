@@ -18,7 +18,7 @@
     text-align: center;
 }
 .cost {
-    position: fixed;
+    position: absolute;
     margin-left: 62.5px;
     font-size: 13px;
     height: 30px;
