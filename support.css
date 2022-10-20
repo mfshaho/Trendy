@@ -1,0 +1,119 @@
+html {
+    background-color: #fff;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 40px;
+}
+
+.onclick {
+    cursor: pointer;
+}
+
+
+.header {
+    position: relative;
+    justify-content: center;
+    font-size: 65px;
+    font-family: 'Outfit' sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    border-radius: 73px;
+    padding: 5px 40px;
+}
+
+.text-gradient {
+    background-image: linear-gradient(
+            45deg, #0092ff, #0000ff
+    );
+    opacity: 60%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+.choose {
+    display: block;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0 0 48%;
+    height: auto;
+    width: 22rem;
+    border: 1px solid #d2d2d7;
+    border-radius: 12px;
+    text-align: center;
+    padding: 18px;
+}
+
+
+.call-icon {
+    height: 32px;
+    padding-bottom: 8px;
+}
+
+.btxt {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Outfit' sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.ttxt {
+    font-family: 'Outfit' sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: .3px;
+    padding-top: 4px;
+}
+
+link {
+    color: #000000;
+    padding-top: 4px;
+    font-weight: 200;
+}
+
+link:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.ku {
+    background: linear-gradient(90deg, rgba(237,32,36,1) 0%, rgba(237,32,36,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(254,202,65,1) 70%, rgba(255,255,255,0.1) 70%, rgba(39,142,67,1) 70%);
+}
+
+.en {
+    background: #39386F;
+}
+.star {
+    color: #fff;
+    justify-content: center;
+}
+
+.ar {
+    background: url("assets/ar.png");
+    border-top: none;
+}

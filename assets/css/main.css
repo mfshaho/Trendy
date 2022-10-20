@@ -272,6 +272,11 @@ footer{
     padding: 0;
   }
 
+  .cta-link{
+    color: #0071E3;
+    font-size: 1.6rem;
+    display: inline-block;
+  }
 
   .unit-image-iphone-14{
     margin-top: 4.8rem;
