@@ -8,15 +8,27 @@
     font-size: 13px;
     font-weight: 600;
     color: #0071e3;
-    display: flex;
-    justify-content: center;
 }
+.total-section {
+    position: absolute;
+    height: 45px;
+    width: 380px;
+    margin-top: 10px;
 
+    text-align: center;
+}
 .cost {
+    position: fixed;
+    margin-left: 62.5px;
     font-size: 13px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
+    height: 30px;
+    width: 115px;
+    font-weight: 400;
+    border: 0.0rem solid;
+    border-radius: 13px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 input[type=text], select {
@@ -90,7 +102,8 @@ input[type=submit]:hover {
     border-radius: 980px;
     cursor: pointer;
     min-width: 28px;
-    margin-left:41%;
+    margin-left:37.5%;
+    margin-top: 40px;
 }
 .submit:hover {
     opacity: 90%;
@@ -145,5 +158,26 @@ option:hover {
         border-radius: 12px;
         box-sizing: border-box;
     }
+
+    .price {
+        font-size: 13px;
+        font-weight: 600;
+        color: #0071e3;
+    }
+    .total-section {
+        position: absolute;
+        height: 45px;
+        width: 380px;
+        margin-top: 10px;
+
+        text-align: center;
+    }
+    .cost {
+        margin-left: -16.5px;
+        font-size: 13px;
+        height: 30px;
+        width: 115px;
+    }
+
 
 }
