@@ -17,6 +17,8 @@
     <link href="../../assets/css/SFPRODISPLAY.css" rel="stylesheet" type="text/css">
     <link href="../../assets/css/outfit-v6-latin.css" rel="stylesheet" type="text/css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
 
 </head>
 <body>
@@ -106,10 +108,10 @@
 
                 <label>
                     <span>Model <span class="required">*</span></span><br>
-                    <select name="selection">
+                    <select name="Model">
                         <option value="select">Select a Model...</option>
-                        <option value="$899">iPhone 14</option>
-                        <option value="$899">iPhone 14 Plus</option>
+                        <option value="iPhone 14">iPhone 14</option>
+                        <option value="iPhone 14 Plus">iPhone 14 Plus</option>
 
 
                     </select>
@@ -117,13 +119,13 @@
                 <br>
                 <label>
                     <span>Color <span class="required">*</span></span><br>
-                    <select name="selection">
+                    <select name="Color">
                         <option value="select">Select a color...</option>
-                        <option value="$899">Blue</option>
-                        <option value="$899">Purple</option>
-                        <option value="$899">Midnight</option>
-                        <option value="$899">Starlight</option>
-                        <option value="$899">(PRODUCT)RED</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Purple">Purple</option>
+                        <option value="Midnight">Midnight</option>
+                        <option value="Starlight">Starlight</option>
+                        <option value="(PRODUCT)RED">(PRODUCT)RED</option>
 
 
                     </select>
@@ -131,35 +133,57 @@
                 <br>
                 <label>
                     <span>Storage <span class="required">*</span></span><br>
-                    <select name="selection">
+                    <select name="Storage" class="calculate">
                         <option value="select">Select storage size...</option>
-                        <option value="$899">128GB</option>
-                        <option value="$999">256GB</option>
-                        <option value="$1099">512GB</option>
+                        <option data-price="0" value="128GB">128GB</option>
+                        <option data-price="100" value="256GB">256GB</option>
+                        <option data-price="200" value="512GB">512GB</option>
 
 
                     </select>
                 </label>
+
                 <br>
 
-                <button class="submit" onclick="alert('your order has been submitted, if nobody called you in the next 6 hours call us on (964 750 735 0906)')">Order</button>
+
+                <span class="cost">Price: &nbsp;&nbsp;$<span id="item-price" class="price"></span></span>
+
+
+                <br><br>
+                <br><br>
+
+
+                <label>
+                    <span>Address<span class="required">*</span></span><br>
+                    <select name="Address" class="fee">
+                        <option value="select">Select a City...</option>
+                        <option value="Zakho">Zakho - Free Shipping</option>
+                        <option value="Duhok">Duhok - Free Shipping</option>
+                        <option value="Hewler">Hewler - $5 Shipping Fee</option>
+                        <option value="Sulaymaniyah">Sulaymaniyah - $5 Shipping Fee</option>
+                    </select>
+                </label>
+                <br>
+                <label>
+                    <span>Phone Number<span class="required">*</span></span><br>
+                    <input type="number" placeholder="Enter your phone number">
+                </label>
+                <br>
+
+                <button class="submit" onclick="alert('your order has been submitted, if nobody called you in the next 6 hours call us on (964-750-735-0906)')">Order</button>
 
             </form>
+
+
+
+
     </div>
 
 
 
-<script>
-
-    const selectElement = (element) => document.querySelector(element);
-
-    selectElement('.acc-mobile-menu').addEventListener('click', () => {
-        selectElement('.header-acc').classList.toggle('active-acc');
-    });
-
-</script>
 
 
+<script src="../buy.js"></script>
 
 </body>
 </html>

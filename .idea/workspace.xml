@@ -2,120 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SFPRODISPLAY.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Black.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-BlackItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-BoldItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-HeavyItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-LightItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-MediumItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-RegularItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Semibold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-SemiboldItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-ThinItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-Ultralight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SFProDisplay/SF-Pro-Display-UltralightItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/PSD/large.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/PSD/medium.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/PSD/small.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11-pro/iphone_11_pro_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11-pro/iphone_11_pro_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11-pro/iphone_11_pro_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11/iphone_11_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11/iphone_11_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-11/iphone_11_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_medium_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_small_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_large_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_medium_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/hero_iphone14__fjmsqstr1ceq_small_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/iphone-14/small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/logitech-universal-folio/hero_logitech_universal_folio_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/logitech-universal-folio/hero_logitech_universal_folio_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/logitech-universal-folio/hero_logitech_universal_folio_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_large_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_medium_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/macbook-pro-13/macbook_pro_13__e3r46kd69eoi_small_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/watch/logo_watch_large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/watch/logo_watch_medium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/watch/watch_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/watch/watch_medium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hero/watch/watch_small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/20635165_1942203892713915_5464937638928580608_a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/Call_Icon_Dark_Gray_35x35.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/apple.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/bag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/boxo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/boxotxt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fea-instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fea.ai" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fea.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/fea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/feablack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/feablack.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/feapp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/feastore.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/smooth.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/whatsapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/whatsappcover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/airpods-max.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/iphone-14-pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/iphone14-blue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/iphone14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/items/logitech-folio.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/accessories.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/airpods.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/apple-giftcard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/apple-tv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/apple-watch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/home-pod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/ipad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/iphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/productnav/mac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/MQD83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/MQD83_AV2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/card1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/card2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/color.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/compare_airpods_max__b14s2x6q07rm_medium_2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/compare_iphone_14__ct4sjk962pea_medium_2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/iphone-compare-iphone-14-pro-202209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/store-card-40-airpods-pro-202209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/store-card-40-applemusic-202112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/store-card-40-iphone-14-pro-202209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/store-card-40-macbook-pro-202206.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/uk-universal-folio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/store/uk-universal-folio.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/buy-iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/buy-iphone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/product/buy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/p/iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/p/iphone/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/Trendy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Shaho/Documents/GitHub/Trendy/index.html&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -165,17 +56,23 @@
       <recent name="C:\xampp\htdocs\Trendy\assets\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.signup.html">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FEA/FEA/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (3)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/support/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/Trendy/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (5)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (6)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/Trendy/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="signup.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/accounts/signup.html" useBuiltInWebServerPort="true">
@@ -183,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (6)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.signup.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +118,9 @@
       <workItem from="1666164336018" duration="4707000" />
       <workItem from="1666169096916" duration="582000" />
       <workItem from="1666202976250" duration="2111000" />
+      <workItem from="1666225499370" duration="167000" />
+      <workItem from="1666225676297" duration="3000" />
+      <workItem from="1666225704431" duration="59000" />
     </task>
     <servers />
   </component>

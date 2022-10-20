@@ -4,6 +4,21 @@
     justify-content: center;
 }
 
+.price {
+    font-size: 13px;
+    font-weight: 600;
+    color: #0071e3;
+    display: flex;
+    justify-content: center;
+}
+
+.cost {
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
 input[type=text], select {
     height: 50px;
     width: 380px;
