@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/buy-iphone/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/product/buy.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\xampp\htdocs\Trendy\assets\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.404.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -66,22 +67,22 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/product/buy-iphone/iphone-14-pro/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (5)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (6)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.404.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (6)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +118,8 @@
       <workItem from="1666202976250" duration="2111000" />
       <workItem from="1666225499370" duration="167000" />
       <workItem from="1666225676297" duration="3000" />
-      <workItem from="1666225704431" duration="5537000" />
+      <workItem from="1666225704431" duration="5893000" />
+      <workItem from="1666233959083" duration="1528000" />
     </task>
     <servers />
   </component>
