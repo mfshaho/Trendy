@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/en/product/JQuery/2.1.1/jQuery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/product/JQuery/3.3.1/jQuery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/product/JQuery/javascript-console.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro-max/indeex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro-max/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro-max/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +126,7 @@
       <workItem from="1666233959083" duration="18454000" />
       <workItem from="1666391304043" duration="189000" />
       <workItem from="1666416136440" duration="6718000" />
-      <workItem from="1666424000053" duration="1637000" />
+      <workItem from="1666424000053" duration="2136000" />
     </task>
     <servers />
   </component>
