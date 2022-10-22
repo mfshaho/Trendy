@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html dir="ltr" lang="en">
 <head>
@@ -17,7 +18,8 @@
     <link href="/assets/css/SFPRODISPLAY.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/outfit-v6-latin.css" rel="stylesheet" type="text/css">
 
-    <script src="/en/product/jQuery/2.1.1/jQuery.min.js" rel="script" type="text/javascript"></script>
+
+
 
 </head>
 <body>
@@ -102,37 +104,80 @@
 
         <label>
             <span>Model <span class="required">*</span></span><br>
-            <select name="Model">
-                <option value="select">Select a Model.</option>
-                <option value="iPhone 14">iPhone 14 Pro Max</option>
+            <select name="Model" id="Model">
+                <option value="none">Select a Model.</option>
+                <option value="iPhone-14">iPhone 14</option>
+                <option value="iPhone-14-Pro">iPhone 14 Pro</option>
+                <option value="iPhone-14-Pro-Max">iPhone 14 Pro Max</option>
             </select>
         </label>
         <br>
         <label>
             <span>Color <span class="required">*</span></span><br>
-            <select name="Color">
-                <option value="select">Select a color.</option>
-                <option value="Blue">Deep Purple</option>
-                <option value="Purple">Gold</option>
-                <option value="Midnight">Silver</option>
-                <option value="Starlight">Space Black</option>
+            <select name="Color" id="selectColor">
+
+                <!-- iPhone 14 -->
+                <option  value="none">Select a color...</option>
+                <option data-value="iPhone-14" value="Blue">Blue</option>
+                <option data-value="iPhone-14" value="Purple">Purple</option>
+                <option data-value="iPhone-14" value="Midnight">Midnight</option>
+                <option data-value="iPhone-14" value="Starlight">Starlight</option>
+                <option data-value="iPhone-14" value="(PRODUCT)RED">(PRODUCT)RED</option>
+
+                <!-- iPhone 14 Pro -->
+                <option data-value="iPhone-14-Pro" value="Blue">Deep Purple</option>
+                <option data-value="iPhone-14-Pro" value="Purple">Gold</option>
+                <option data-value="iPhone-14-Pro" value="Midnight">Silver</option>
+                <option data-value="iPhone-14-Pro" value="Starlight">Space Black</option>
+
+                <!-- iPhone 14 Pro Max -->
+                <option data-value="iPhone-14-Pro-Max" value="Blue">Deep Purple</option>
+                <option data-value="iPhone-14-Pro-Max" value="Purple">Gold</option>
+                <option data-value="iPhone-14-Pro-Max" value="Midnight">Silver</option>
+                <option data-value="iPhone-14-Pro-Max" value="Starlight">Space Black</option>
+
             </select>
+
+
         </label>
         <br>
         <label>
             <span>Storage <span class="required">*</span></span><br>
-            <select name="Storage" class="calculate">
-                <option value="select">Select storage size.</option>
-                <option data-price="0" value="128GB">256GB 1SIM</option>
-                <option data-price="10" value="256GB">256GB 2SIM</option>
+
+            <select  name="Storage" class="servicevalue1 howlongcover1"  id="servicevalue1">
+
+                <option  value="none" data-price="0">Select storage size.</option>
+
+                <option value="128GB" data-capacity="128GB" data-price="899">128GB</option>
+                <option value="256GB" data-capacity="256GB" data-price="888">256GB</option>
+                <option value="512GB" data-capacity="512GB" data-price="1099">512GB</option>
+                <option   value="1TB" data-capacity="1TB"   data-price="1199">1TB</option>
+
             </select>
+
         </label>
+        <br>
+        <label>
+            <span>SIM CARD Slots <span class="required">*</span></span><br>
+
+            <select  name="SIMCARD Slots" class="servicevalue1 howlongcover1"  id="servicevalue1">
+
+                <option  value="none" data-price="0">Select SIMCARD Slots.</option>
+
+                <option value="1 SIMCARD" data-capacity="1SIM" class="calculate" id="checkboxes"  name="checks" data-price="30.99" selected>1 SIMCARD</option>
+                <option value="2 SIMCARD" data-capacity="2SIM" class="calculate" id="checkboxes1" name="checks" data-price="50.99">2 SIMCARD</option>
+
+            </select>
+
+        </label>
+
+
 
         <br>
 
         <div class="total-section">
 
-            <span class="cost">Total: &nbsp;&nbsp;$<span id="item-price" class="price"></span></span>
+            <span class="cost">Total: &nbsp;&nbsp;$<span id="item-price" class="price">0.00</span></span>
 
         </div>
 
@@ -164,6 +209,17 @@
         <input type="hidden" name="fp_redirect" value="https://trendy.gq/thank-you" >
         <button class="submit" onclick="alert('your order has been submitted, if nobody called you in the next 6 hours call us on (964-750-735-0906)')">Order Now</button>
 
+
+
+
+
+        <noscript>
+            <label><input class="calculate" id="checkboxes" type="checkbox" name="checks" data-price="25"> <span></span> option 1</label><BR>
+            <label><input class="calculate" id="checkboxes1"  type="checkbox" name="checks" data-price="25"> <span></span>option 2</label><BR>
+            <label><input class="calculate" id="checkboxes2" type="checkbox" name="checks" data-price="25"> <span></span>Option 3</label><BR>
+        </noscript>
+
+
     </form>
 
 
@@ -176,19 +232,20 @@
 
 
 <script type="text/javascript">
-    // iPhone 14 Pro //
-    var basePrice = 1569;
 
-    $(".calculate").change(function() {
-        newPrice = basePrice;
-        $(".calculate option:selected").each(function() {
-            newPrice += $(this).data('price')
-        });
-        $("#item-price").html(newPrice);
-    });
+
+
 
 </script>
-<script src="/assets/js/main.js" type="text/javascript"></script>
+
+    <script src="/assets/js/main.js" type="text/javascript"></script>
+    <script src="/en/product/buy.js" type="text/javascript"></script>
+
+    <script src="/en/product/jQuery/javascript-console.min.js" type="text/javascript"></script>
+
+    <script src="/en/product/jQuery/1.7.2/jQuery.min.js" type="text/javascript"></script>
+    <script src="/en/product/jQuery/2.1.1/jQuery.min.js" type="text/javascript"></script>
+    <script src="/en/product/jQuery/3.3.1/jQuery.min.js" type="text/javascript"></script>
 
 </body>
 </html>
