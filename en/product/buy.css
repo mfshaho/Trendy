@@ -1,183 +1,24 @@
-.login-section {
-    height: ;
+.select-option {
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
-.price {
-    font-size: 13px;
-    font-weight: 600;
-    color: #0071e3;
-}
-.total-section {
-    position: absolute;
-    height: 45px;
-    width: 380px;
-    margin-top: 10px;
 
+.selection-title {
+    position: center;
+    font-size: 20px;
+    justify-content: center;
     text-align: center;
 }
-.cost {
-    position: absolute;
-    margin-left: 62.5px;
-    font-size: 13px;
-    height: 30px;
-    width: 115px;
-    font-weight: 400;
-    border: 0.0rem solid;
-    border-radius: 13px;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
-}
 
-input[type=text], select {
+select {
     height: 50px;
     width: 380px;
-    padding: 12px 20px;
+    padding: 0px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-sizing: border-box;
-}
-
-input[type=email] {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=number], select {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=password], select {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 90px;
-    background-color: #0071e3;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 980px;
-    cursor: pointer;
-    min-width: 28px;
-    margin-left:41%;
-}
-
-input[type=submit]:hover {
-    opacity: 90%;
-}
-
-.submit {
-    width: 110px;
-    background-color: #0071e3;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 980px;
-    cursor: pointer;
-    min-width: 28px;
-    margin-left:37.5%;
-    margin-top: 40px;
-}
-.submit:hover {
-    opacity: 90%;
-}
-
-option:hover {
-    background-color: #0092ff;
-    color: white;
-}
-
-@media screen and (max-width: 720px){
-    input[type=text], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    input[type=email] {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    input[type=number], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    input[type=password], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    .price {
-        font-size: 13px;
-        font-weight: 600;
-        color: #0071e3;
-    }
-    .total-section {
-        position: absolute;
-        height: 45px;
-        width: 380px;
-        margin-top: 10px;
-
-        text-align: center;
-    }
-    .cost {
-        margin-left: -16.5px;
-        font-size: 13px;
-        height: 30px;
-        width: 115px;
-    }
-
-
 }
