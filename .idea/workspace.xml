@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change afterPath="$PROJECT_DIR$/en/product/buy-iphone/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Trendy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trendy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/support/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/thank-you/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/thank-you/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ku/harîkarî/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/harîkarî/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ku/spas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/spas/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <recent name="C:\xampp\htdocs\Trendy" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+  <component name="RunManager" selected="JavaScript Debug.home.html">
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -91,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.indeex.html" />
         <item itemvalue="JavaScript Debug.index.html (6)" />
@@ -139,7 +140,9 @@
       <workItem from="1666427140833" duration="2017000" />
       <workItem from="1666471590701" duration="9721000" />
       <workItem from="1666567508649" duration="1500000" />
-      <workItem from="1666650926614" duration="303000" />
+      <workItem from="1666650926614" duration="457000" />
+      <workItem from="1666653961198" duration="598000" />
+      <workItem from="1666654698397" duration="7906000" />
     </task>
     <servers />
   </component>

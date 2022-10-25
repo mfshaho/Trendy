@@ -18,7 +18,8 @@
     <link href="/assets/css/SFPRODISPLAY.css" rel="stylesheet" type="text/css">
     <link href="/assets/css/outfit-v6-latin.css" rel="stylesheet" type="text/css">
 
-    <script href="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script href="https://code.jquery.com/jquery-3.6.1.js" type="text/javascript"></script>
+
 
 </head>
 <body>
@@ -92,34 +93,45 @@
 
 
 <div class="title title-light">
-    <h2 class="title-heading">iPhone 14 Pro</h2>
+    <h2 class="title-heading">
+        iPhone 14
+    </h2>
 </div>
 <br><br><br><br>
 
+<form action="https://formpost.app/management@trendy.gq"
+      method="POST">
+
 <div class="select-option">
     <label>
-    <select name="Storage">
-        <option value="0">-- select a size --</option>
-        <option value="128GB">128GB</option>
-        <option value="256GB">256GB</option>
-        <option value="512GB">512GB</option>
+        <span>Model <span class="required">*</span></span> <BR>
+
+    <select name="model" id="main_menu" >
+
+        <option value="none">-- select an iPhone --</option>
+        <option value="iphone14">iPhone 14</option>
+        <option value="iphone14pro">iPhone 14 Pro</option>
+        <option value="iphone14promax">iPhone 14 Pro Max</option>
+
     </select>
     </label>
 </div>
 
 <div class="select-option">
     <label>
-        <select name="Storage">
-            <option value="0">-- select a size --</option>
-            <option value="128GB">128GB</option>
-            <option value="256GB">256GB</option>
-            <option value="512GB">512GB</option>
+        <span>Storage size <span class="required">*</span></span> <BR>
+        <select name="modelsize" id="sub_menu">
+
         </select>
     </label>
 </div>
 
+    <input type="hidden" name="fp_redirect" value="https://trendy.gq/en/thank-you" >
+    <button class="submit" onclick="alert('your order has been submitted, if nobody called you in the next 6 hours call us on (964-750-735-0906)')">Order Now</button>
 
+</form>
 
+<script type="text/javascript" src="../buy.js"></script>
 
 </body>
 </html>
