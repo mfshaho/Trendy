@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,7 @@
       <workItem from="1666833762699" duration="3636000" />
       <workItem from="1666887672233" duration="6692000" />
       <workItem from="1666895026419" duration="6657000" />
-      <workItem from="1666902573120" duration="365000" />
+      <workItem from="1666902573120" duration="961000" />
     </task>
     <servers />
   </component>
