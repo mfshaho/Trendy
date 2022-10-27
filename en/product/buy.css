@@ -383,6 +383,31 @@ select {
     line-height: inherit;
 }
 
+input[type=text] {
+    height: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    height: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.customer-info {
+    font-weight: 500;
+}
 /* Screen on CellPhones */
 @media screen and (max-width: 420px) {
     .large-6 {

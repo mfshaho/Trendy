@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change afterPath="$PROJECT_DIR$/en/product/buy-iphone/javatest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/store/p/iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/p/iphone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/store/store.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/store.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/support/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/support/support.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/support/support.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,23 +70,23 @@
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\assets\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.javatest.html">
-    <configuration name="home - Copy.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/home - Copy.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/iphone-14/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/home.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/store/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/iphone-14-pro/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (3)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/support/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (5)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="javatest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/javatest.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/buy-iphone/test.html" useBuiltInWebServerPort="true">
@@ -88,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.javatest.html" />
-        <item itemvalue="JavaScript Debug.test.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.home - Copy.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.test.html" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +151,7 @@
       <workItem from="1666815937517" duration="11490000" />
       <workItem from="1666833762699" duration="3636000" />
       <workItem from="1666887672233" duration="6692000" />
+      <workItem from="1666895026419" duration="3762000" />
     </task>
     <servers />
   </component>

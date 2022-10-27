@@ -16,6 +16,11 @@ a{
   text-decoration: none;
 }
 
+.d-none {
+  display: none;
+  opacity: 0;
+}
+
 .container{
   max-width: 98rem;
   margin: 0 auto;
@@ -371,7 +376,7 @@ footer{
     font-size: 1.3rem;
     padding: 0;
     margin: auto 0;
-    margin-right: 2rem;
+    margin-right: 7.5rem;
   }
 
   .nav-list-larger{
