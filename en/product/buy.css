@@ -369,7 +369,19 @@ select {
     padding-bottom: 2rem;
 }
 
+.shipping-fee {
 
+}
+
+select {
+    border: none;
+    margin-left: 40px;
+    width: 180px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: inherit;
+}
 
 /* Screen on CellPhones */
 @media screen and (max-width: 420px) {

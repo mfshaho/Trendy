@@ -119,7 +119,7 @@
         <div class="form-selector">
 
 
-            <input class="form-selector-input" name="iPhone 14" id="iPhone14" type="radio" value="799" onclick="next1();" data-price="0">
+            <input class="form-selector-input" name="model" id="iPhone14" type="radio" value="799" onclick="next1();">
             <label for="iPhone14" class="form-selector-label" id="iPhone14_label">
 
                 <span class="row">
@@ -141,7 +141,7 @@
 
         <div class="form-selector">
 
-            <input class="form-selector-input" id="iPhone14Plus" type="radio" name="iPhone 14" value="899" onclick="next1();" data-price="100">
+            <input class="form-selector-input" name="model" id="iPhone14Plus" type="radio" value="899" onclick="next1();">
             <label for="iPhone14Plus" class="form-selector-label" id="iPhone14Plus_label">
 
                 <span class="row">
@@ -152,7 +152,7 @@
                     </span>
                     <span class="form-selector-right-col column large-6">
                         <span class="form-label-small">
-                            <span>From <span>$899</span></span>
+                            <span>From $<span id="SelectedmodelResult">899</span></span>
                         </span>
                     </span>
                 </span>
@@ -180,35 +180,35 @@
 
             <li class="colornav-item">
                 <label class="colornav-link dimension-colornav-link">
-                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Blue" onclick="next2();" data-price="19">
+                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Blue" onclick="next2();" >
                     <img alt="" src="/assets/images/color/iphone-14/blue.jpeg" class="colornav-swatch">
                 </label>
             </li>
 
             <li class="colornav-item">
                 <label class="colornav-link dimension-colornav-link">
-                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Purple" onclick="next2();" data-price="29">
+                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Purple" onclick="next2();">
                     <img alt="" src="/assets/images/color/iphone-14/purple.jpeg" class="colornav-swatch">
                 </label>
             </li>
 
             <li class="colornav-item">
                 <label class="colornav-link dimension-colornav-link">
-                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Midnight" onclick="next2();" data-price="39">
+                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Midnight" onclick="next2();">
                     <img alt="" src="/assets/images/color/iphone-14/midnight.jpeg" class="colornav-swatch">
                 </label>
             </li>
 
             <li class="colornav-item">
                 <label class="colornav-link dimension-colornav-link">
-                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Star_Light" onclick="next2();" data-price="49">
+                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Star_Light" onclick="next2();">
                     <img alt="" src="/assets/images/color/iphone-14/starlight.jpeg" class="colornav-swatch">
                 </label>
             </li>
 
             <li class="colornav-item">
                 <label class="colornav-link dimension-colornav-link">
-                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Red" onclick="next2();" data-price="59">
+                    <input type="radio" class="colornav-value dimension-colornav-input" name="iPhone_Color" value="Red" onclick="next2();">
                     <img alt="" src="/assets/images/color/iphone-14/red.jpeg" class="colornav-swatch">
                 </label>
             </li>
@@ -232,7 +232,7 @@
 
         <div class="form-selector">
 
-            <input class="form-selector-input" name="iPhone_Size" id="128GB" type="radio" value="0.00" onclick="next3();" data-price="0">
+            <input class="form-selector-input" name="size" id="128GB" type="radio" value="0.99" onclick="next3();">
             <label for="128GB" class="form-selector-label" id="128GB">
 
                 <span class="row">
@@ -251,7 +251,7 @@
 
 
         <div class="form-selector">
-            <input class="form-selector-input" name="iPhone_Size" id="256GB" type="radio" value="256GB" onclick="next3();" data-price="100">
+            <input class="form-selector-input" name="size" id="256GB" type="radio" value="100" onclick="next3();">
             <label for="256GB" class="form-selector-label" id="256GB">
                 <span class="row">
                     <span class="form-selector-left-col column large-6">
@@ -267,7 +267,7 @@
         </div>
 
         <div class="form-selector">
-            <input class="form-selector-input" name="iPhone_Size" id="512GB" type="radio" value="512GB" onclick="next3();" data-price="200">
+            <input class="form-selector-input" name="size" id="512GB" type="radio" value="300" onclick="next3();">
             <label for="512GB" class="form-selector-label" id="512GB">
                 <span class="row">
                     <span class="form-selector-left-col column large-6">
@@ -275,7 +275,7 @@
                     </span>
                     <span class="form-selector-right-col column large-6">
                         <span class="form-label-small">
-                            <span>+ <span>$199</span></span>
+                            <span>+ <span>$299</span></span>
                         </span>
                     </span>
                 </span>
@@ -288,16 +288,27 @@
     <div class="none" id="price-div">
     <div class="form-selector" >
         <div class="price-box">
-            <div class="price-text">$<span >0.00</span></div>
+            <div class="price-text"><span id="item-price">0.00</span></div>
 
             <br><br>
 
             <div class="shipping-info">
                 <svg viewBox="0 0 25 25" class="as-svgicon as-svgicon-boxtruck as-svgicon-reduced as-svgicon-boxtruckreduced" role="img" aria-hidden="true" width="25px" height="25px"><path fill="none" d="M0 0h25v25H0z"></path><path d="M23.482 12.847l-2.92-3.209A1.947 1.947 0 0018.985 9H17V6.495a2.5 2.5 0 00-2.5-2.5h-11a2.5 2.5 0 00-2.5 2.5v9.75a2.5 2.5 0 002.5 2.5h.548A2.746 2.746 0 006.75 21.02 2.618 2.618 0 009.422 19h6.681a2.744 2.744 0 005.347-.23h.735A1.656 1.656 0 0024 16.98v-2.808a1.937 1.937 0 00-.518-1.325zM8.426 18.745a1.74 1.74 0 01-3.352 0 1.577 1.577 0 01.015-1 1.738 1.738 0 013.322 0 1.578 1.578 0 01.015 1zM9.447 18a2.726 2.726 0 00-5.394-.255H3.5a1.502 1.502 0 01-1.5-1.5v-9.75a1.502 1.502 0 011.5-1.5h11a1.502 1.502 0 011.5 1.5V18zm10.972.77a1.738 1.738 0 01-3.337 0 1.573 1.573 0 010-1 1.742 1.742 0 113.337 1zM23 16.98c0 .569-.229.79-.815.79h-.735A2.73 2.73 0 0017 16.165V10h1.986a.976.976 0 01.838.314l2.927 3.214a.95.95 0 01.249.644zm-1.324-3.36a.512.512 0 01.174.38h-3.306a.499.499 0 01-.544-.528V11h1.073a.76.76 0 01.594.268z" fill="#1d1d1f"></path></svg>
-                <strong>Ships:</strong><br>in 2-3 business days.
+                <strong>Ship to:</strong>
+                <select name="Shipping-Address" class="shipping-fee calculate">
+                    <option value="none" data-price="0">select...</option>
+                    <option value="Zakho" data-price="Free">Zakho</option>
+                    <option value="Duhok" data-price="2">Duhok</option>
+                    <option value="Erbil" data-price="3">Erbil</option>
+                    <option value="Sulaymaniyah" data-price="5">Sulaymaniyah</option>
+                </select>
+                <div class="shipping-fee-total">Shipping Fee: <strong>$<span id="shipping-fee"></span></strong></div>
+                in 2-3 business days.
                 <br><br>
+                <noscript>
                 <svg viewBox="0 0 25 25" class="as-svgicon as-svgicon-applestorepickup as-svgicon-reduced as-svgicon-applestorepickupreduced" role="img" aria-hidden="true" width="25px" height="25px"><path fill="none" d="M0 0h25v25H0z"></path><path d="M18.5 5h-1.775a4.231 4.231 0 00-8.45 0H6.5A2.5 2.5 0 004 7.5v11A2.5 2.5 0 006.5 21h12a2.5 2.5 0 002.5-2.5v-11A2.5 2.5 0 0018.5 5zm-6-3a3.245 3.245 0 013.225 3h-6.45A3.245 3.245 0 0112.5 2zM20 18.5a1.5 1.5 0 01-1.5 1.5h-12A1.5 1.5 0 015 18.5v-11A1.5 1.5 0 016.5 6h12A1.5 1.5 0 0120 7.5z"></path><path d="M14.4 12.448a1.592 1.592 0 01.738-1.328 1.607 1.607 0 00-1.37-.687c-.52 0-.941.317-1.22.317s-.663-.3-1.129-.3a1.861 1.861 0 00-1.739 2.068 4.32 4.32 0 00.723 2.3c.346.491.648.883 1.084.883s.617-.287 1.144-.287c.55 0 .663.279 1.137.279s.791-.43 1.084-.853a3.24 3.24 0 00.474-.989 1.516 1.516 0 01-.926-1.403zM12.583 10.357a1.346 1.346 0 00.941-.5 1.594 1.594 0 00.361-.974.731.731 0 00-.008-.136 1.5 1.5 0 00-1.016.528 1.547 1.547 0 00-.384.943c0 .053.008.106.008.128.03.004.06.011.098.011z"></path></svg>
-                <strong>Pickup:</strong><a href="#">Check availability</a>
+                <strong>Pickup:</strong><a href="/en/support">Check availability</a>
+                </noscript>
             </div>
 
             <input type="hidden" name="fp_redirect" value="https://trendy.gq/en/thank-you" >
@@ -312,18 +323,9 @@
 </form>
 
 <script>
-    $('.form-selector-input').on("change", function () {
-        var links = []; //array for links
-        var totalPrice = 0;
 
-        $('.form-selector-input:checked').each(function () {
-            links.push($(this).data('link')); //get links
-            totalPrice += parseInt($(this).data('price'), 10);
-        });
 
-        $('.price-text').html(totalPrice);
-        $("a").attr("href", links.join(",")); // change link
-    });
+
 </script>
 
 <script src="https://code.jquery.com/jquery-3.6.1.js" type="text/javascript"></script>
@@ -332,8 +334,5 @@
 </noscript>
 <script src="../buy.js" type="text/javascript"></script>
 
-<script>
-
-</script>
 </body>
 </html>
