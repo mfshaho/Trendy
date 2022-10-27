@@ -9,7 +9,6 @@
 html{
   font-size: 10px;
   font-family: 'Outfit', sans-serif;
-  background-color: #f5f5f7;
 }
 
 a{
@@ -430,7 +429,7 @@ footer{
 
   @keyframes menuPop {
     from{
-      opacity: : 0;
+      opacity: 0;
     }
     to{
       opacity: 1;

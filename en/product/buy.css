@@ -1,3 +1,6 @@
+* {
+    color: #1d1d1f;
+}
 .select-option {
     position: relative;
     display: flex;
@@ -6,14 +9,52 @@
 
 
 .radio-select-option {
-    position: relative;
-    justify-content: center;
     list-style: none;
 }
 
+.title-heading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.text-box {
+    position: static;
+    width: 35rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+a {
+    color: #0071E3;
+}
+
+.typography-eyebrow {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.typography-sub {
+    color: #6e6e73;
+}
 
 .form-selector-input {
-    opacity: ;
+    opacity: 0;
 }
 
 .form-selector {
@@ -43,7 +84,7 @@
     height: auto;
     min-height: 4.88235rem;
 
-    width: 30rem;
+    width: 35rem;
 
     border-radius: 12px;
     border: 1px solid #ccc;
@@ -284,13 +325,64 @@ select {
     background-color: #0071e3;
     border: transparent;
     border-radius: 12px;
-    height: 3.5rem;
-    width: 10rem;
+    height: 4rem;
+    width: 23rem;
     color: #fff;
     font-family: 'Outfit', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .submit:hover {
     opacity: .9;
+}
+
+
+.price-box {
+    position: static;
+    background-color: #FBFBFD;
+    width: 31rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.price-text {
+    font-size: 4rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 1.094rem;
+}
+
+.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-info {
+    font-size: 1.5rem;
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 2rem;
+}
+
+
+
+/* Screen on CellPhones */
+@media screen and (max-width: 420px) {
+    .large-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .column {
+        width: 70rem;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+    }
 }

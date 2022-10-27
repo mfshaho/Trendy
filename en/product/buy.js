@@ -1,29 +1,30 @@
-var model={
-    iphone14:['128GB', '256GB', '512GB'],
-    iphone14pro:['128GB', '256GB', '512GB', '1TB'],
-    iphone14promax:['128GB', '256GB', '512GB', '1TB']
+
+function next1() {
+    var radio = document.getElementById("model");
+    var text = document.getElementById("color");
+    if (radio.checked === true){
+        text.style.display = "none";
+    } else {
+        text.style.display = "block";
+    }
 }
 
-var main= document.getElementById('main_menu');
-var sub= document.getElementById('sub_menu');
-
-main.addEventListener('change', function (){
-
-    var selected_option = model[this.value];
-
-    while(sub.options.length > 0){
-
-        sub.options.remove(0);
-
+function next2() {
+    var radio = document.getElementById("color");
+    var text = document.getElementById("size");
+    if (radio.checked === true){
+        text.style.display = "none";
+    } else {
+        text.style.display = "block";
     }
+}
 
-    Array.from(selected_option).forEach(function (el){
-
-        let option = new Option(el, el);
-
-        sub.appendChild(option);
-
-    });
-
-});
-
+function next3() {
+    var radio = document.getElementById("size");
+    var text = document.getElementById("price-div");
+    if (radio.checked === true){
+        text.style.display = "none";
+    } else {
+        text.style.display = "block";
+    }
+}
