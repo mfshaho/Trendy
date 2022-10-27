@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy-iphone/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/p/iphone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/p/iphone/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/store.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/store/store.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/support/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/support/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/support/support.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/support/support.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +140,7 @@
       <workItem from="1666815937517" duration="11490000" />
       <workItem from="1666833762699" duration="3636000" />
       <workItem from="1666887672233" duration="6692000" />
-      <workItem from="1666895026419" duration="3762000" />
+      <workItem from="1666895026419" duration="4374000" />
     </task>
     <servers />
   </component>
