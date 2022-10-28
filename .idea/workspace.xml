@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change beforePath="$PROJECT_DIR$/.idea/Trendy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trendy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/buy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/logitech/keyboard/universal-folio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/product/logitech/keyboard/universal-folio/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/berhem/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/ku/berhem/buy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/berhem/buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/ku/berhem/buy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/berhem/iphone-bikrre/iphone-14-pro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/berhem/iphone-bikrre/iphone-14-pro/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/berhem/iphone-bikrre/iphone-14/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/berhem/iphone-bikrre/iphone-14/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +145,7 @@
       <workItem from="1666895026419" duration="6657000" />
       <workItem from="1666902573120" duration="2473000" />
       <workItem from="1666960972488" duration="11376000" />
-      <workItem from="1666972447105" duration="470000" />
+      <workItem from="1666972447105" duration="1754000" />
     </task>
     <servers />
   </component>
