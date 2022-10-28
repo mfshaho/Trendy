@@ -1,0 +1,48 @@
+@keyframes fade{
+    from{
+        opacity:0.8;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+#slider{
+    margin:0 auto;
+    overflow:hidden;
+
+}
+
+.slides{
+    overflow:hidden;
+    animation-name:fade;
+    animation-duration:1s;
+    display:none;
+}
+
+#dot{
+    margin:0 auto;
+    text-align:center;
+}
+.dot{
+    display:inline-block;
+    border-radius:50%;
+    background:#d3d3d3;
+    padding:8px;
+    margin:10px 5px;
+}
+
+.product-img {
+    width: auto;
+    height: 250px;
+}
+
+.active{
+    background:black;
+}
+
+@media (max-width:567px){
+    #slider{
+
+    }
+}

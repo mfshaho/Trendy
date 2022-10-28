@@ -21,6 +21,10 @@ a{
   opacity: 0;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
 .container{
   max-width: 98rem;
   margin: 0 auto;

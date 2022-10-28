@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+            "width=device-width, initial-scale=1.0">
+
+    <title>
+        Calculate the sum of radio
+        button values using jQuery
+    </title>
+
+    <script src=
+                    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
+    <style>
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        .GFG {
+            width: 350px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+<h1 style="color: green;">
+    GeeksforGeeks
+</h1>
+
+<h3>
+    Calculate the sum of radio
+    button values using jQuery
+</h3>
+<div class="GFG">
+    <p>
+        <label for="num1">Select First Number: </label>
+        <input class="calc" type="radio" name="model" value="799">iPhone 14
+        <input class="calc" type="radio" name="model" value="899">iPhone 14 Plus
+    </p>
+
+    <p>
+        <label for="num1">Select Second Number: </label>
+        <input class="calc" type="radio" name="size" value="0.99">128GB
+        <input class="calc" type="radio" name="size" value="19">256GB
+        <input class="calc" type="radio" name="size" value="49">512GB
+    </p>
+
+
+    <p class="res"></p>
+</div>
+
+<script>
+    $(document).ready(function () {
+        let model = 0, size = 0;
+        $('input[name="model"]').on("click", function () {
+            model = parseInt($('input[name="model"]:checked').val());
+
+        });
+
+        $('input[name="size"]').on("click", function () {
+            size = parseInt($('input[name="size"]:checked').val());
+        });
+
+        $(".calc").on('click', function () {
+            let sum = model + size;
+            $(".res").html("$" + sum + ".00");
+        });
+    });
+</script>
+</body>
+
+</html>

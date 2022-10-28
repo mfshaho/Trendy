@@ -1,185 +1,442 @@
-.login-section {
-    height: ;
+* {
+    color: #1d1d1f;
+}
+
+.select-option {
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
-.price {
-    font-size: 13px;
-    font-weight: 600;
-    color: #0071e3;
+body {
+    margin-bottom: 125px;
 }
-.total-section {
-    position: absolute;
-    height: 45px;
-    width: 380px;
-    margin-top: 10px;
 
-    text-align: center;
+.radio-select-option {
+    list-style: none;
 }
-.cost {
-    position: absolute;
-    margin-left: 62.5px;
-    font-size: 13px;
-    height: 30px;
-    width: 115px;
-    font-weight: 400;
-    border: 0.0rem solid;
-    border-radius: 13px;
+
+.title-heading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.text-box {
+    position: static;
+    width: 35rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
-input[type=text], select {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
+a {
+    color: #0071E3;
 }
 
-input[type=email] {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=number], select {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=password], select {
-    height: 50px;
-    width: 380px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 100px;
-    background-color: #0071e3;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 980px;
-    cursor: pointer;
-    min-width: 28px;
-    margin-left:41%;
+.typography-eyebrow {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
     font-family: 'Outfit', sans-serif;
 }
 
-input[type=submit]:hover {
-    opacity: 90%;
+.typography-sub {
+    color: #6e6e73;
+}
+
+.form-selector-input {
+    opacity: 0;
+}
+
+.form-selector {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.form-selector .form-selector-input:checked~.form-selector-label {
+    border-color: #0071e3;
+    border-width: 1.25px;
+}
+
+.form-selector .form-selector-input:checked~.form-selector-label:hover {
+    box-shadow: 0 0 0 6px rgba(0, 113, 227, 0.2)
+}
+
+
+.form-selector-label {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: 'Outfit', sans-serif;
+
+    height: auto;
+    min-height: 4.88235rem;
+
+    width: 35rem;
+
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.form-selector-label:hover {
+    box-shadow: 0 0 0 1.25px rgba(204, 204, 204, 0.8)
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.form-selector-label .form-selector-left-col {
+    position: relative;
+    align-self: center;
+    text-align: left;
+}
+
+.large-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.column {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+}
+
+.form-selector-label .form-selector-right-col {
+    position: relative;
+    align-self: center;
+    text-align: right;
+}
+
+.form-selector-label .form-selector-title {
+    font-weight: 600;
+}
+
+.form-selector-label .form-label-small {
+    display: block;
+    margin-top: 0.23529rem;
+}
+
+.form-label-small {
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: 'Outfit', sans-serif;
+    color: #1d1d1f;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-image: initial;
+}
+
+
+/* Color CSS */
+
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2);
+    border-radius: 50%;
+}
+
+
+
+.colornav-item {
+    float: left;
+    margin: -1px 5px;
+}
+
+.colornav-value {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+.colornav-link {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #1d1d1f;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 2.47059em;
+    padding: 3px;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+}
+
+.dimension .colornav-item {
+    margin: 4px 5px 4px 0;
+}
+
+.dimension-colornav-link img {
+    border-radius: 50%;
+}
+
+.colornav-swatch {
+    background: #f5f5f7 50%;
+    border-radius: 50%;
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+
+
+
+.colornav-swatch:hover {
+    box-shadow: 0 0 0 1.25px rgba(204, 204, 204, 0.8);
+    border-radius: 50%;
+}
+
+.colornav-swatch:checked {
+    box-shadow: 0 0 0 6px rgba(0, 113, 227, 0.2)
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.colornav-value {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+.colornav-label, .colornav-label-hidden {
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+}
+
+/* OTHER CSS */
+
+.selection-title {
+    position: center;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+select {
+    height: 50px;
+    width: 380px;
+    padding: 0px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.none {
+    display: none;
 }
 
 .submit {
-    font-family: 'Outfit', sans-serif;
-    width: 120px;
     background-color: #0071e3;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 980px;
+    border: transparent;
+    border-radius: 12px;
+    height: 4rem;
+    width: 23rem;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
     cursor: pointer;
-    min-width: 28px;
-    margin-left:37.5%;
-    margin-top: 40px;
 }
+
 .submit:hover {
-    opacity: 90%;
+    opacity: .9;
 }
 
-option:hover {
-    background-color: #0092ff;
-    color: white;
+
+.price-box {
+    position: static;
+    background-color: #FBFBFD;
+    width: 31rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
-@media screen and (max-width: 720px){
-    input[type=text], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
+.price-text {
+    font-size: 4rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 1.094rem;
+}
+
+.center {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-info {
+    font-size: 1.5rem;
+    border-bottom: .5px solid #ccc;
+    padding-bottom: 2rem;
+}
+
+.shipping-fee {
+
+}
+
+select {
+    border: none;
+    margin-left: 40px;
+    width: 180px;
+    height: 30px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    line-height: inherit;
+}
+
+input[type=text] {
+    height: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    height: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.discount-info {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: #0071E3 line-through;
+}
+
+.customer-info {
+    font-weight: 500;
+}
+/* Screen on CellPhones */
+@media screen and (max-width: 420px) {
+
+    body {
+        margin-bottom: 350px;
+    }
+
+    .large-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+    .column {
+        width: 70rem;
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
     }
-
-    input[type=email] {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    input[type=number], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    input[type=password], select {
-        height: 40px;
-        width: 300px;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 12px;
-        box-sizing: border-box;
-    }
-
-    .price {
-        font-size: 13px;
-        font-weight: 600;
-        color: #0071e3;
-    }
-    .total-section {
-        position: absolute;
-        height: 45px;
-        width: 380px;
-        margin-top: 10px;
-
-        text-align: center;
-    }
-    .cost {
-        margin-left: -16.5px;
-        font-size: 13px;
-        height: 30px;
-        width: 115px;
-    }
-
-
 }
