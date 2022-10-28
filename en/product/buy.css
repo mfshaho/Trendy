@@ -1,12 +1,16 @@
 * {
     color: #1d1d1f;
 }
+
 .select-option {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
+body {
+    margin-bottom: 125px;
+}
 
 .radio-select-option {
     list-style: none;
@@ -410,6 +414,11 @@ input[type=number] {
 }
 /* Screen on CellPhones */
 @media screen and (max-width: 420px) {
+
+    body {
+        margin-bottom: 350px;
+    }
+
     .large-6 {
         flex-basis: 50%;
         max-width: 50%;
