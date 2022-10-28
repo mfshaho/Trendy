@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change afterPath="$PROJECT_DIR$/assets/css/Tajawal-Arabic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ku/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ku/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +54,14 @@
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product\buy-iphone\iphone-14-pro-max" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shaho\Documents\GitHub\Trendy" />
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product\buy-iphone" />
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product\jQuery" />
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product\jQuery\2.1.1" />
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product" />
-      <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\assets\js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.unk.html">
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/ku/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -79,19 +77,19 @@
     <configuration name="index.html (6)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/ku/berhem/logitech/keyboard/universal-folio/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (7)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/en/product/logitech/keyboard/universal-folio/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/ku/berhem/iphone-bikrre/iphone-14/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/ku/berhem/iphone-bikrre/iphone-14/index.html" useBuiltInWebServerPort="true">
+    <configuration name="unk.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/unk.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.unk.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html (6)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (7)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +147,7 @@
       <workItem from="1666960972488" duration="11376000" />
       <workItem from="1666972447105" duration="1754000" />
       <workItem from="1666978378483" duration="1610000" />
+      <workItem from="1666980111364" duration="351000" />
     </task>
     <servers />
   </component>
