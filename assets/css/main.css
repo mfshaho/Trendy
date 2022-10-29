@@ -498,14 +498,14 @@ footer{
 
 .unit-image-accessories{
   height: 69.2rem;
-  background: url("/assets/images/hero/accessories/large.jpg") center;
+  background: url("/assets/images/hero/accessories/large.png") center;
   border-top: none;
 }
 
 @media screen and (max-width: 992px) {
   .unit-image-logitech-folio{
     height: 69.2rem;
-    background: url("/assets/images/hero/accessories/medium.jpg") center;
+    background: url("/assets/images/hero/accessories/medium.png") center;
     border-top: none;
   }
 }
@@ -513,7 +513,7 @@ footer{
 @media screen and (max-width: 600px) {
   .unit-image-logitech-folio{
     height: 59.2rem;
-    background: url("/assets/images/hero/accessories/small.jpg") center;
+    background: url("/assets/images/hero/accessories/small.png") center;
     border-top: none;
   }
 }
