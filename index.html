@@ -1,530 +1,239 @@
-
-
 <!DOCTYPE html>
-<html lang="en" >
-
+<html dir="ltr" lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trendy.</title>
 
-  <meta charset="UTF-8">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
 
-  <link rel="apple-touch-icon" type="image/png" href="" />
-  <meta name="apple-mobile-web-app-title" content="CodePen">
+    <link rel="icon" type="image/x-icon" href="/assets/images/icons/trendy.ico">
 
-  <title>Trendy.</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
-          rel="stylesheet"
-  />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-  <style>
-    :root {
-      --dark-color: hsl(var(--hue), 100%, 9%);
-      --light-color: hsl(var(--hue), 95%, 98%);
-      --base: hsl(var(--hue), 95%, 50%);
-      --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
-      --complimentary2: hsl(var(--hue-complimentary2), 95%, 50%);
-
-      --font-family: "Poppins", system-ui;
-
-      --bg-gradient: linear-gradient(
-              to bottom,
-              hsl(var(--hue), 95%, 99%),
-              hsl(var(--hue), 95%, 84%)
-      );
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-
-    body {
-      max-width: 1920px;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 2rem;
-      font-family: var(--font-family);
-      color: var(--dark-color);
-      background: var(--bg-gradient);
-    }
-
-    .orb-canvas {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: -1;
-    }
-
-    strong {
-      font-weight: 600;
-    }
-
-    .overlay {
-      width: 100%;
-      max-width: 1140px;
-      max-height: 640px;
-      padding: 8rem 6rem;
-      display: flex;
-      align-items: center;
-      background: rgba(255, 255, 255, 0.375);
-      box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
-      border-radius: 2rem;
-      border: 1px solid rgba(255, 255, 255, 0.125);
-    }
-
-    .overlay__inner {
-      max-width: 36rem;
-    }
-
-    .overlay__title {
-      font-size: 1.875rem;
-      line-height: 2.75rem;
-      font-weight: 700;
-      letter-spacing: -0.025em;
-      margin-bottom: 2rem;
-    }
-
-    .text-gradient {
-      background-image: linear-gradient(
-              45deg,
-              var(--base) 25%,
-              var(--complimentary2)
-      );
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
-    }
-
-    .overlay__description {
-      font-size: 1rem;
-      line-height: 1.75rem;
-      margin-bottom: 3rem;
-    }
-
-    .overlay__btns {
-      width: 100%;
-      max-width: 30rem;
-      display: flex;
-    }
-
-    .overlay__btn {
-      width: 50%;
-      height: 2.5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: var(--light-color);
-      background: var(--dark-color);
-      border: none;
-      border-radius: 0.5rem;
-      transition: transform 150ms ease;
-      outline-color: hsl(var(--hue), 95%, 50%);
-    }
-
-    .overlay__btn:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-    }
-
-    .overlay__btn--transparent {
-      background: transparent;
-      color: var(--dark-color);
-      border: 2px solid var(--dark-color);
-      border-width: 2px;
-      margin-right: 0.75rem;
-    }
-
-    .overlay__btn-emoji {
-      margin-left: 0.375rem;
-    }
-
-    a {
-      text-decoration: none;
-      color: var(--dark-color);
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Not too many browser support this yet but it's good to add! */
-    @media (prefers-contrast: high) {
-      .orb-canvas {
-        display: none;
-      }
-    }
-
-    @media only screen and (max-width: 1140px) {
-      .overlay {
-        padding: 8rem 4rem;
-      }
-    }
-
-    @media only screen and (max-width: 840px) {
-      body {
-        padding: 1.5rem;
-      }
-
-      .overlay {
-        padding: 4rem;
-        height: auto;
-      }
-
-      .overlay__title {
-        font-size: 1.25rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
-      }
-
-      .overlay__description {
-        font-size: 0.875rem;
-        line-height: 1.5rem;
-        margin-bottom: 2.5rem;
-      }
-    }
-
-    @media only screen and (max-width: 600px) {
-      .overlay {
-        padding: 1.5rem;
-      }
-
-      .overlay__btns {
-        flex-wrap: wrap;
-      }
-
-      .overlay__btn {
-        width: 100%;
-        font-size: 0.75rem;
-        margin-right: 0;
-      }
-
-      .overlay__btn:first-child {
-        margin-bottom: 1rem;
-      }
-    }
-  </style>
-
-
-
-
-  <script>
-    if (document.location.search.match(/type=embed/gi)) {
-      window.parent.postMessage("resize", "*");
-    }
-  </script>
-
+    <!-- FONTS -->
+    <link href="/assets/css/SFPRODISPLAY.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/outfit-v6-latin.css" rel="stylesheet" type="text/css">
 
 </head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
 
-<body translate="no" >
-<!-- Canvas -->
-<canvas class="orb-canvas"></canvas>
-<!-- Overlay -->
-<div class="overlay">
-  <!-- Overlay inner wrapper -->
-  <div class="overlay__inner">
-    <!-- Title -->
-    <h1 class="overlay__title">
-      Hey, would you like to buy original products from big brands but everywhere you go is just fake.<br>
-      try <span class="text-gradient">Trendy.</span>
-    </h1>
-    <!-- Description -->
-    <p class="overlay__description">
-      Trendy is a e-commerce platform in kurdistan region and iraq.<br>you can find and order the products you love 100% original and with a reasonable price.
-      <strong>You just click and we do the rest.</strong>
-      <br><br>
-      <strong>select a language:</strong>
-    </p>
-    <!-- Buttons -->
-    <div class="overlay__btns">
+        <ul class="nav-list nav-list-mobile">
+          <li class="nav-item">
+            <div class="mobile-menu">
+              <span class="line line-top"></span>
+              <span class="line line-bottom"></span>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link nav-link-logo">
+              <img src="/assets/images/icons/trendy-txt.png" class="logo">
+            </a>
+          </li>
+          <li class="nav-item d-none">
+            <a href="index.html" class="nav-link">
+              <i class="gg-bookmark"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- /.nav-list nav-list-mobile -->
 
-      <button class="overlay__btn overlay__btn--transparent">
-        <a href="/en">
-          English
-        </a>
-      </button>
 
-      <button class="overlay__btn overlay__btn--transparent">
-        <a href="/ku">
-          Kurdî
-        </a>
-      </button>
+        <ul class="nav-list nav-list-larger">
 
+          <li class="nav-item nav-item-hidden">
+            <p class="nav-link">
+              <a href="/" class="nav-link nav-link-logo trendy">Trendy.</a>
+          </li>
+
+          <li class="nav-item">
+            <p class="nav-link">
+              <a href="/store" class="nav-link" data-i18n-key="Store">Store</a>
+          </li>
+          <li class="nav-item">
+            <a href="/accessories" class="nav-link">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a href="support" class="nav-link" target="_blank">Support</a>
+          </li>
+          <li class="nav-item nav-item-hidden none">
+            <a href="#" class="nav-link">
+              <i class="gg-bookmark"></i>
+            </a>
+          </li>
+          <li class="nav-item none">
+            <a href="accounts" class="nav-link">
+              <i class="gg-profile"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- /.nav-list nav-list-larger -->
+
+
+      </nav>
     </div>
-<br>
-    <!-- Buttons -->
-    <div class="overlay__btns">
+  </header>
 
-      <button class="overlay__btn overlay__btn--transparent">
-        <a href="/ar"> العربية</a>
-      </button>
+  <section class="hero unit-image-iphone-14">
+     <div class="container">
 
-      <button class="overlay__btn overlay__btn--colors">
-        <span>Randomise Colors</span>
-        <span class="overlay__btn-emoji">🎨</span>
-      </button>
-    </div>
+       <div class="title title-dark">
+         <h2 class="title-heading">iPhone 14</h2>
+         <h3 class="title-sub-heading">Big and bigger.</h3>
+         <!--
+         <p class="title-price-heading">$1,299.00</p>
+       -->
+       </div>
 
-  </div>
-</div>
-<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+       <div class="cta">
+         <a href="/store/p/iphone" class="cta-link cta-link-darker">Learn more
 
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
 
-<script id="rendered-js" type="module">
-  import * as PIXI from "https://cdn.skypack.dev/pixi.js@5.x";
-  import { KawaseBlurFilter } from "https://cdn.skypack.dev/@pixi/filter-kawase-blur@3.2.0";
-  import SimplexNoise from "https://cdn.skypack.dev/simplex-noise@3.0.0";
-  import hsl from "https://cdn.skypack.dev/hsl-to-hex";
-  import debounce from "https://cdn.skypack.dev/debounce";
+         </a>
+         <a href="/product/buy-iphone/iphone-14" class="cta-link cta-link-darker">Buy
 
-  // return a random number within a range
-  function random(min, max) {
-    return Math.random() * (max - min) + min;
-  }
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
 
-  // map a number from 1 range to another
-  function map(n, start1, end1, start2, end2) {
-    return (n - start1) / (end1 - start1) * (end2 - start2) + start2;
-  }
+         </a>
+       </div>
 
-  // Create a new simplex noise instance
-  const simplex = new SimplexNoise();
+     </div>
+  </section>
 
-  // ColorPalette class
-  class ColorPalette {
-    constructor() {
-      this.setColors();
-      this.setCustomProperties();
-    }
+  <section class="hero unit-image-iphone-14-pro">
+     <div class="container">
 
-    setColors() {
-      // pick a random hue somewhere between 220 and 360
-      this.hue = ~~random(220, 360);
-      this.complimentaryHue1 = this.hue + 30;
-      this.complimentaryHue2 = this.hue + 60;
-      // define a fixed saturation and lightness
-      this.saturation = 95;
-      this.lightness = 50;
+       <div class="title title-light">
+         <h2 class="title-heading">iPhone 14 Pro</h2>
+         <h3 class="title-sub-heading">Pro. Beyond.</h3>
+         <!--
+         <p class="title-price-heading">$1,299.00</p>
+       -->
+       </div>
 
-      // define a base color
-      this.baseColor = hsl(this.hue, this.saturation, this.lightness);
-      // define a complimentary color, 30 degress away from the base
-      this.complimentaryColor1 = hsl(
-              this.complimentaryHue1,
-              this.saturation,
-              this.lightness);
+       <div class="cta">
+         <a href="/store/p/iphone" class="cta-link">Learn more
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
+         </a>
+         <a href="/product/buy-iphone/iphone-14-pro" class="cta-link">Buy
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
+         </a>
+       </div>
 
-      // define a second complimentary color, 60 degrees away from the base
-      this.complimentaryColor2 = hsl(
-              this.complimentaryHue2,
-              this.saturation,
-              this.lightness);
-
-
-      // store the color choices in an array so that a random one can be picked later
-      this.colorChoices = [
-        this.baseColor,
-        this.complimentaryColor1,
-        this.complimentaryColor2];
-
-    }
-
-    randomColor() {
-      // pick a random color
-      return this.colorChoices[~~random(0, this.colorChoices.length)].replace(
-              "#",
-              "0x");
-
-    }
-
-    setCustomProperties() {
-      // set CSS custom properties so that the colors defined here can be used throughout the UI
-      document.documentElement.style.setProperty("--hue", this.hue);
-      document.documentElement.style.setProperty(
-              "--hue-complimentary1",
-              this.complimentaryHue1);
-
-      document.documentElement.style.setProperty(
-              "--hue-complimentary2",
-              this.complimentaryHue2);
-
-    }}
+     </div>
+  </section>
 
 
-  // Orb class
-  class Orb {
-    // Pixi takes hex colors as hexidecimal literals (0x rather than a string with '#')
-    constructor(fill = 0x000000) {
-      // bounds = the area an orb is "allowed" to move within
-      this.bounds = this.setBounds();
-      // initialise the orb's { x, y } values to a random point within it's bounds
-      this.x = random(this.bounds["x"].min, this.bounds["x"].max);
-      this.y = random(this.bounds["y"].min, this.bounds["y"].max);
+  <section class="hero unit-image-logitech-folio">
+     <div class="container">
 
-      // how large the orb is vs it's original radius (this will modulate over time)
-      this.scale = 1;
+       <div class="title title-dark">
+         <h2 class="title-heading">Logitech Universal Folio</h2>
+         <h4 class="title-sub-heading-smaller">Keyboard case with Bluetooth for 9-10 inch Apple, Android, Windows tablets</h4>
+         <!--
+         <p class="title-price-heading">$1,299.00</p>
+       -->
+       </div>
 
-      // what color is the orb?
-      this.fill = fill;
+       <div class="cta">
+         <a href="/product/logitech/keyboard/universal-folio" class="button">Buy</a>
+         <a href="#" class="cta-link cta-link-darker">Learn more
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
+         </a>
+       </div>
 
-      // the original radius of the orb, set relative to window height
-      this.radius = random(window.innerHeight / 6, window.innerHeight / 3);
+     </div>
+  </section>
 
-      // starting points in "time" for the noise/self similar random values
-      this.xOff = random(0, 1000);
-      this.yOff = random(0, 1000);
-      // how quickly the noise/self similar random values step through time
-      this.inc = 0.002;
+  <section class="hero unit-image-macbook-pro-13">
+     <div class="container">
 
-      // PIXI.Graphics is used to draw 2d primitives (in this case a circle) to the canvas
-      this.graphics = new PIXI.Graphics();
-      this.graphics.alpha = 0.825;
+       <div class="title title-light">
+         <h2 class="title-heading"><span class="typography-hero-violator">New</span><br>Macbook Pro 13"</h2>
+         <h3 class="title-sub-heading">Pro anywhere.</h3>
+         <!--
+         <p class="title-price-heading">$1299</p>
+       -->
+       </div>
 
-      // 250ms after the last window resize event, recalculate orb positions.
-      window.addEventListener(
-              "resize",
-              debounce(() => {
-                this.bounds = this.setBounds();
-              }, 250));
+       <div class="cta">
+         <a href="#" class="button">Buy</a>
+         <a href="#" class="cta-link cta-link-darker">Learn more
+           <svg
+             width="18"
+             height="18"
+             viewBox="4 -4 24 24"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+               fill="currentColor"
+             />
+           </svg>
+         </a>
+       </div>
 
-    }
+     </div>
+  </section>
 
-    setBounds() {
-      // how far from the { x, y } origin can each orb move
-      const maxDist =
-              window.innerWidth < 1000 ? window.innerWidth / 3 : window.innerWidth / 5;
-      // the { x, y } origin for each orb (the bottom right of the screen)
-      const originX = window.innerWidth / 1.25;
-      const originY =
-              window.innerWidth < 1000 ?
-                      window.innerHeight :
-                      window.innerHeight / 1.375;
+<footer style="background-color: #000000;">
+<p>Copyright © 2022 Shah Company Limited. All rights reserved.</p>
+</footer>
 
-      // allow each orb to move x distance away from it's x / y origin
-      return {
-        x: {
-          min: originX - maxDist,
-          max: originX + maxDist },
-
-        y: {
-          min: originY - maxDist,
-          max: originY + maxDist } };
-
-
-    }
-
-    update() {
-      // self similar "psuedo-random" or noise values at a given point in "time"
-      const xNoise = simplex.noise2D(this.xOff, this.xOff);
-      const yNoise = simplex.noise2D(this.yOff, this.yOff);
-      const scaleNoise = simplex.noise2D(this.xOff, this.yOff);
-
-      // map the xNoise/yNoise values (between -1 and 1) to a point within the orb's bounds
-      this.x = map(xNoise, -1, 1, this.bounds["x"].min, this.bounds["x"].max);
-      this.y = map(yNoise, -1, 1, this.bounds["y"].min, this.bounds["y"].max);
-      // map scaleNoise (between -1 and 1) to a scale value somewhere between half of the orb's original size, and 100% of it's original size
-      this.scale = map(scaleNoise, -1, 1, 0.5, 1);
-
-      // step through "time"
-      this.xOff += this.inc;
-      this.yOff += this.inc;
-    }
-
-    render() {
-      // update the PIXI.Graphics position and scale values
-      this.graphics.x = this.x;
-      this.graphics.y = this.y;
-      this.graphics.scale.set(this.scale);
-
-      // clear anything currently drawn to graphics
-      this.graphics.clear();
-
-      // tell graphics to fill any shapes drawn after this with the orb's fill color
-      this.graphics.beginFill(this.fill);
-      // draw a circle at { 0, 0 } with it's size set by this.radius
-      this.graphics.drawCircle(0, 0, this.radius);
-      // let graphics know we won't be filling in any more shapes
-      this.graphics.endFill();
-    }}
-
-
-  // Create PixiJS app
-  const app = new PIXI.Application({
-    // render to <canvas class="orb-canvas"></canvas>
-    view: document.querySelector(".orb-canvas"),
-    // auto adjust size to fit the current window
-    resizeTo: window,
-    // transparent background, we will be creating a gradient background later using CSS
-    transparent: true });
-
-
-  app.stage.filters = [new KawaseBlurFilter(30, 10, true)];
-
-  // Create colour palette
-  const colorPalette = new ColorPalette();
-
-  // Create orbs
-  const orbs = [];
-
-  for (let i = 0; i < 10; i++) {if (window.CP.shouldStopExecution(0)) break;
-    const orb = new Orb(colorPalette.randomColor());
-
-    app.stage.addChild(orb.graphics);
-
-    orbs.push(orb);
-  }
-
-  // Animate!
-  window.CP.exitedLoop(0);if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    app.ticker.add(() => {
-      orbs.forEach(orb => {
-        orb.update();
-        orb.render();
-      });
-    });
-  } else {
-    orbs.forEach(orb => {
-      orb.update();
-      orb.render();
-    });
-  }
-
-  document.
-  querySelector(".overlay__btn--colors").
-  addEventListener("click", () => {
-    colorPalette.setColors();
-    colorPalette.setCustomProperties();
-
-    orbs.forEach(orb => {
-      orb.fill = colorPalette.randomColor();
-    });
-  });
-  //# sourceURL=pen.js
-</script>
-
-
-
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-550eae0ce567d3d9182e33cee4e187761056020161aa87e3ef74dc467972c555.js"></script>
+<script src="/assets/js/main.js" type="text/javascript"></script>
 </body>
-
 </html>
-
