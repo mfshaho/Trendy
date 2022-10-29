@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/store/card2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/store/card2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro-max/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14-pro/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/iphone-14/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/javatest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy-iphone/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/buy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/jquery/1.7.2/jQuery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/jquery/2.1.1/jQuery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/jquery/3.3.1/jQuery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/jquery/javascript-console.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/logitech/keyboard/universal-folio/img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/logitech/keyboard/universal-folio/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/logitech/keyboard/universal-folio/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/slides.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/product/slides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/p/iphone/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/store/store.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/support/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/support/support.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/thank-you/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/thank-you/thank-you.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unk.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +150,7 @@
       <workItem from="1666980522919" duration="1919000" />
       <workItem from="1667070284724" duration="1205000" />
       <workItem from="1667074141116" duration="6431000" />
+      <workItem from="1667082774856" duration="34000" />
     </task>
     <servers />
   </component>
