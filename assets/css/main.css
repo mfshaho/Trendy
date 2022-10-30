@@ -208,6 +208,14 @@ header{
 
 .cta-link-darker{
   color: #0066CC;
+  font-size: 2.1rem;
+  display: inline-block;
+}
+.cta-link-darker:nth-child(2){
+  margin-left: 2.6rem;
+}
+.cta-link-darker:hover {
+  text-decoration: underline;
 }
 
 .right-link {
