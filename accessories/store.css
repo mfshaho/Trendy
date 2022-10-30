@@ -52,12 +52,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+    width: 6px;
+    height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #ebebeb;
+    background-color: #f5f5f5;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #d6d6d6;
+    background: #cccccc;
 }
 
 .hvr-grow {

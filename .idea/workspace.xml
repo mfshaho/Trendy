@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessories/store.css" beforeDir="false" afterPath="$PROJECT_DIR$/accessories/store.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/store.css" beforeDir="false" afterPath="$PROJECT_DIR$/store/store.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="C:\Users\Shaho\Documents\GitHub\Trendy\en\product" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/accessories/power-&amp;-cables/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -69,9 +72,6 @@
       <method v="2" />
     </configuration>
     <configuration name="index.html (3)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/product/apple-accessories/usb-c-to-lightning/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (5)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Trendy/index.html" useBuiltInWebServerPort="true">
@@ -83,13 +83,16 @@
     <configuration name="index.html (7)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Trendy/accessories/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:63342/Trendy/store/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (7)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (6)" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +154,7 @@
       <workItem from="1666980522919" duration="1919000" />
       <workItem from="1667070284724" duration="1205000" />
       <workItem from="1667074141116" duration="6431000" />
-      <workItem from="1667082774856" duration="4426000" />
+      <workItem from="1667082774856" duration="7258000" />
     </task>
     <servers />
   </component>

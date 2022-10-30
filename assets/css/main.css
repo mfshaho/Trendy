@@ -4,6 +4,7 @@
 *::after{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 html{
@@ -14,6 +15,24 @@ html{
 a{
   display: block;
   text-decoration: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #cccccc;
 }
 
 .d-none {
