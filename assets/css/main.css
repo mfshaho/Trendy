@@ -200,11 +200,14 @@ header{
 
 .cta-link:hover{
   text-decoration: underline;
-
 }
 
 .cta-link-darker{
   color: #0066CC;
+}
+
+.right-link {
+  color: #0071E3;
 }
 
 .button{
