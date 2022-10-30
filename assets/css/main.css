@@ -188,6 +188,10 @@ header{
   margin-top: 1.8rem;
 }
 
+.mar {
+  margin-left: 35px;
+}
+
 .cta-link{
   color: #0071E3;
   font-size: 2.1rem;
