@@ -32,7 +32,7 @@
                     const json = JSON.stringify(object);
                     result.innerHTML = "Please wait...";
 
-                    fetch("https://trendy.gq/submit", {
+                    fetch("https://formpost.app/management@trendy.gq", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
