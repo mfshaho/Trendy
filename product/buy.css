@@ -373,14 +373,11 @@ select {
     padding-bottom: 2rem;
 }
 
-.shipping-fee {
-
-}
 
 select {
-    border: none;
-    margin-left: 40px;
-    width: 180px;
+    border: 1px solid #ccc;
+    margin-left: 60px;
+    width: 145px;
     height: 30px;
     font-family: inherit;
     font-size: inherit;
@@ -394,20 +391,77 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 12px;
     box-sizing: border-box;
 }
 
-input[type=number] {
+input[type=email] {
     height: 30px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 12px;
     box-sizing: border-box;
+}
+
+input[type=tel] {
+    height: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.invalid-feedback,
+.empty-feedback {
+    display: none;
+}
+
+.was-validated :placeholder-shown:invalid ~ .empty-feedback {
+    display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.customer-info {
+    font-weight: 500;
+}
+
+.l-r {
+    display: flex;
+}
+
+.l {
+    width: 145px;
+    margin-right: 7.5px;
+}
+
+.r {
+    width: 145px;
+    margin-left: 7.5px;
+}
+
+.is-invalid,
+.was-validated :invalid {
+    border-color: #dc3545;
+}
+
+.text-red {
+    font-size: 10px;
+    color: red;
+    font-style: italic;
+}
+
+.text-green-500 {
+    border-color: greenyellow;
 }
 
 .discount-info {
@@ -417,9 +471,7 @@ input[type=number] {
     text-decoration: #0071E3 line-through;
 }
 
-.customer-info {
-    font-weight: 500;
-}
+
 /* Screen on CellPhones */
 @media screen and (max-width: 420px) {
 

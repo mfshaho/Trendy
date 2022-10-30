@@ -58,3 +58,5 @@ function next3() {
         text.style.display = "block";
     }
 }
+
+/* Form Validation */
