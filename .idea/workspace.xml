@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a67633e-1380-4fc2-ac92-8be0cc8072cc" name="Changes" comment="A">
-      <change afterPath="$PROJECT_DIR$/assets/js/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/apple-accessories/usb-c-to-lightning/orders.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/en.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hero/accessories/large.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hero/accessories/large.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hero/accessories/medium.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hero/accessories/medium.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hero/accessories/small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hero/accessories/small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/apple-accessories/usb-c-to-lightning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/apple-accessories/usb-c-to-lightning/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/buy.css" beforeDir="false" afterPath="$PROJECT_DIR$/product/buy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/product/buy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thank-you/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +16,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTTP Request" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,7 +166,7 @@
       <workItem from="1667082774856" duration="7341000" />
       <workItem from="1667157573646" duration="2161000" />
       <workItem from="1667161402049" duration="1954000" />
-      <workItem from="1667164022472" duration="6582000" />
+      <workItem from="1667164022472" duration="8953000" />
     </task>
     <servers />
   </component>
