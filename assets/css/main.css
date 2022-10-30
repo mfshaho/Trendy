@@ -199,7 +199,8 @@ header{
 }
 
 .cta-link:hover{
-  border-bottom: 2px solid #66bbff;
+  text-decoration: underline;
+
 }
 
 .cta-link-darker{
