@@ -334,30 +334,79 @@
                         <option value="Erbil" data-price="4">Erbil</option>
                         <option value="Sulaymaniyah" data-price="6">Sulaymaniyah</option>
                     </select>
-                    <div class="shipping-fee-total">Shipping Fee: <strong>$<span id="shipping-fee"></span></strong></div>
-                    in 2-3 business days.
-                    <br><br>
-                    <label>
-                        <span class="customer-info">Full name<span class="required">*</span></span><br>
-                        <input name="Name" type="text" placeholder="enter your full name.">
-                    </label>
+                    <div class="shipping-fee-total">Shipping Fee: <strong>$<span id="shipping-fee"></span></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in 2-3 business days.</div>
+
                     <br>
+
+                    <div class="price-text"></div>
+
+
+                    <br>
+
+                    <div class="l-r">
+                        <div class="l">
+                            <label>
+                                <span class="customer-info">first name<span class="required">*</span></span><br>
+                                <input type="text" name="first name" id="first_name" placeholder="John" required  />
+                                <div class="empty-feedback invalid-feedback text-red">
+                                    enter your first name.
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="r">
+                            <label>
+                                <span class="customer-info">last name<span class="required">*</span></span><br>
+                                <input type="text" name="last name" id="last_name" placeholder="Doe" required />
+                                <div class="empty-feedback invalid-feedback text-red">
+                                    enter your last name.
+                                </div>
+                            </label>
+                        </div>
+
+                    </div>
+                    <label>
+                        <span class="customer-info">email<span class="required">*</span></span><br>
+                        <input name="email" type="email" placeholder="name@example.com" required>
+                        <div class="empty-feedback text-red">
+                            please provide your email address.
+                        </div>
+                        <div class="invalid-feedback text-red">
+                            please provide a valid email address.
+                        </div>
+                    </label>
                     <label>
                         <span class="customer-info">Phone number<span class="required">*</span></span><br>
-                        <input name="Phone Number" type="number" placeholder="e.g. 0750 735 xxxx">
+                        <input name="Phone Number" type="tel" placeholder="07xx xxx xxxx" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" list="defaultTels" required>
+                        <datalist id="defaultTels">
+                            <option value="0750"></option>
+                            <option value="0751"></option>
+                            <option value="0770"></option>
+                            <option value="0780"></option>
+                        </datalist>
+                        <div class="empty-feedback text-red">
+                            please provide your phone number.
+                        </div>
+                        <div class="invalid-feedback text-red">
+                            please provide a valid phone number.
+                        </div>
                     </label>
                     <noscript>
                         <strong>Pickup:</strong><a href="/support">Check availability</a>
                     </noscript>
                 </div>
 
+                <input type="hidden" name="fp_reply" value="true" >
+                <input type="hidden" name="fp_reply_from" value="Trendy." >
+                <input type="hidden" name="fp_reply_message" value="Thank you for your order, we'll be contacting you as soon as possible." >
+                <input type="hidden" name="fp_subject" value="New Order from Trendy" >
+                <input type="hidden" name="fp_redirect" value="https://trendy.gq/thank-you" >
+
                 <input type="hidden" name="Brand" value="Apple" >
                 <input type="hidden" name="Model" value="iPhone 14" >
 
-                <input type="hidden" name="fp_subject" value="New Order from Trendy" >
-                <input type="hidden" name="fp_redirect" value="https://trendy.gq/thank-you" >
                 <div class="center">
-                    <button class="submit" onclick="alert('your order has been submitted, if nobody called you in the next 6 hours call us on (964-750-735-0906)')">Order Now</button>
+                    <button class="submit">Order Now</button>
                 </div>
             </div>
         </div>
@@ -380,6 +429,7 @@
 <script src="/product/slides.js" type="text/javascript"></script>
 
 <script src="/assets/js/main.js" type="text/javascript"></script>
+<script src="/assets/js/validation.js" type="text/javascript"></script>
 
 </body>
 </html>
